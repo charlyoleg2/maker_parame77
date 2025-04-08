@@ -5,11 +5,11 @@ import { exec } from "child_process";
 import { promisify } from 'util';
 
 const c_Parts = {
-	door1arc: 'door1arc_v01',
+	door1arc_A: 'door1arc_A_v01',
 };
 
 const c_svgdxf = {
-	door1arc: ['faceDoor'],
+	door1arc_A: ['faceDoor'],
 };
 
 function inferDesignName(instanceName) {
