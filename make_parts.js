@@ -6,10 +6,12 @@ import { promisify } from 'util';
 
 const c_Parts = {
 	door1arc_A: 'door1arc_A_v01',
+	door1arc_B: 'door1arc_B_v01',
 };
 
 const c_svgdxf = {
 	door1arc_A: ['faceDoor'],
+	door1arc_B: ['faceDoor'],
 };
 
 function inferDesignName(instanceName) {
