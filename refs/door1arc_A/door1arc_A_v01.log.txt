@@ -1,0 +1,5 @@
+door1arc simTime: 0
+Hdoor 1375.00, Hvault 375.00 mm
+nVaultStone 13.00 vault-stones
+aVaultStone 8.17 degree 133.74 190.81 mm
+door1arc drawn successfully!
