@@ -1,0 +1,41 @@
+{
+	"name": "maker_parame77",
+	"version": "0.0.1",
+	"description": "parameters and stl for maker_parame77",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/charlyoleg2/maker_parame77.git"
+	},
+	"homepage": "https://github.com/charlyoleg2/maker_parame77#readme",
+	"author": "charlyoleg2",
+	"license": "ISC",
+	"keywords": [
+		"desi77",
+		"parametrix"
+	],
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"desi77-uis": "desi77-uis",
+		"desi77-cli": "desi77-cli",
+		"desi77-cli-help": "desi77-cli --help",
+		"door1arc_list-outopt": "desi77-cli --design desi77/door1arc list-outopt",
+		"door1arc_json_param": "desi77-cli --design=desi77/door1arc write json_param",
+		"door1arc_openscad_long": "desi77-cli --design=desi77/door1arc --param=refs/door1arc/px_door1arc_v01.json --outDir=refs/door1arc --outFileName=door1arc_v01.scad write scad_3d_openscad",
+		"door1arc_openscad": "desi77-cli -d=desi77/door1arc -p=refs/door1arc/px_door1arc_v01.json -o=refs/door1arc --outFileName=door1arc_v01.scad write scad_3d_openscad",
+		"door1arc_view": "openscad refs/door1arc/door1arc_v01.scad",
+		"door1arc_stl": "openscad -o refs/door1arc/door1arc_v01.stl refs/door1arc/door1arc_v01.scad",
+		"make_parts": "node make_parts.js",
+		"git_clean": "git clean -f",
+		"install_jscad": "npm install --prefix=refs @jscad/cli",
+		"check_jscad": "npx --prefix=refs jscad -v",
+		"clean_jscad": "rimraf refs/node_modules refs/package-lock.json refs/package.json",
+		"ls_refs": "ls -ltra refs"
+	},
+	"devDependencies": {
+		"desi77-cli": "^0.1.0",
+		"desi77-uis": "^0.1.0",
+		"rimraf": "^6.0.1"
+	}
+}
