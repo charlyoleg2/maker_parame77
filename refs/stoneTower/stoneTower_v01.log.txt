@@ -1,0 +1,4 @@
+stoneTower simTime: 0
+L3 1120.00, W3 820.00, H3 2200.00, H3b 2680.00 cm
+aCabRoof 45.97 degree
+stoneTower drawn successfully!

@@ -13,7 +13,7 @@ const c_Parts = {
 const c_svgdxf = {
 	door1arc_A: ['faceDoor'],
 	door1arc_B: ['faceDoor'],
-	stoneTower: ['faceHplan', 'faceDoor', 'faceWin1', 'faceWin2', 'faceWin3', 'faceWin4', 'faceCorri', 'faceFS', 'faceTopExt', 'faceTCFront', 'faceTCMid', 'faceTCRear', 'faceFloors'. 'faceStairsL1', 'faceStairsL2', 'faceStairsW1', 'faceStairsW2'],
+	stoneTower: ['faceHplan', 'faceDoor', 'faceWin1', 'faceWin2', 'faceWin3', 'faceWin4', 'faceCorri', 'faceFS', 'faceTopExt', 'faceTCFront', 'faceTCMid', 'faceTCRear', 'faceFloors', 'faceStairsL1', 'faceStairsL2', 'faceStairsW1', 'faceStairsW2'],
 };
 
 function inferDesignName(instanceName) {
