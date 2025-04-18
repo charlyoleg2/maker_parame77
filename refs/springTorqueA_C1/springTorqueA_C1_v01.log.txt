@@ -1,0 +1,3 @@
+springTorqueA simTime: 0
+Dmax 84.00, Dmin 16.00 mm
+springTorqueA drawn successfully!

@@ -1,0 +1,340 @@
+{
+  "partName": "springTorqueA",
+  "pDef": {
+    "partName": "springTorqueA",
+    "params": [
+      {
+        "name": "D1",
+        "unit": "mm",
+        "init": 20,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "N1",
+        "unit": "hole",
+        "init": 16,
+        "min": 0,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "T1",
+        "unit": "mm",
+        "init": 2,
+        "min": 0.1,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E1",
+        "unit": "mm",
+        "init": 1,
+        "min": 0.1,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "External ring",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "Ring2",
+        "unit": "checkbox",
+        "init": 1,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [],
+        "pType": 1
+      },
+      {
+        "name": "D2",
+        "unit": "mm",
+        "init": 80,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "N2",
+        "unit": "hole",
+        "init": 16,
+        "min": 0,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "T2",
+        "unit": "mm",
+        "init": 2,
+        "min": 0.1,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E2",
+        "unit": "mm",
+        "init": 1,
+        "min": 0.1,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Spoke",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "N3",
+        "unit": "spoke",
+        "init": 5,
+        "min": 0,
+        "max": 60,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E3",
+        "unit": "mm",
+        "init": 3,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "R3",
+        "unit": "mm",
+        "init": 3,
+        "min": 0,
+        "max": 100,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Th",
+        "unit": "mm",
+        "init": 3,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "D1": "springTorqueA_profile.svg",
+      "N1": "springTorqueA_profile.svg",
+      "T1": "springTorqueA_profile.svg",
+      "E1": "springTorqueA_profile.svg",
+      "Ring2": "springTorqueA_profile.svg",
+      "D2": "springTorqueA_profile.svg",
+      "N2": "springTorqueA_profile.svg",
+      "T2": "springTorqueA_profile.svg",
+      "E2": "springTorqueA_profile.svg",
+      "N3": "springTorqueA_profile.svg",
+      "E3": "springTorqueA_profile.svg",
+      "R3": "springTorqueA_profile.svg",
+      "Th": "springTorqueA_profile.svg"
+    },
+    "sim": {
+      "tMax": 180,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "D1": 20,
+    "N1": 16,
+    "T1": 2,
+    "E1": 1,
+    "External ring": 0,
+    "Ring2": 1,
+    "D2": 80,
+    "N2": 0,
+    "T2": 2,
+    "E2": 1,
+    "Spoke": 0,
+    "N3": 0,
+    "E3": 3,
+    "R3": 3,
+    "Th": 3
+  },
+  "figures": {
+    "faceProfile": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 42
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 8
+        },
+        {
+          "circle": true,
+          "cx": 10,
+          "cy": 0,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": 9.238795325112868,
+          "cy": 3.826834323650898,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": 7.0710678118654755,
+          "cy": 7.071067811865475,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": 3.8268343236508984,
+          "cy": 9.238795325112868,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": 6.123233995736766e-16,
+          "cy": 10,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -3.826834323650897,
+          "cy": 9.238795325112868,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -7.071067811865475,
+          "cy": 7.0710678118654755,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -9.238795325112868,
+          "cy": 3.826834323650899,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -10,
+          "cy": 1.2246467991473533e-15,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -9.238795325112868,
+          "cy": -3.8268343236508966,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -7.071067811865477,
+          "cy": -7.071067811865475,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -3.8268343236509033,
+          "cy": -9.238795325112864,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -1.8369701987210296e-15,
+          "cy": -10,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": 3.8268343236509,
+          "cy": -9.238795325112866,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": 7.071067811865474,
+          "cy": -7.071067811865477,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": 9.238795325112864,
+          "cy": -3.826834323650904,
+          "radius": 1
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_springTorqueA_profile",
+        "face": "springTorqueA_faceProfile",
+        "extrudeMethod": 0,
+        "length": 3,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_springTorqueA",
+        "boolMethod": 0,
+        "inList": [
+          "subpax_springTorqueA_profile"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "springTorqueA simTime: 0\nDmax 84.00, Dmin 16.00 mm\nspringTorqueA drawn successfully!\n"
+}
