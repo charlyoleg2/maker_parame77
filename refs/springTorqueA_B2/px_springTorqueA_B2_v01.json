@@ -1,0 +1,22 @@
+{
+  "lastModif": "20250418_005048",
+  "partName": "springTorqueA",
+  "pVal": {
+    "D1": 20,
+    "N1": 16,
+    "T1": 2,
+    "E1": 1,
+    "External ring": 0,
+    "Ring2": 0,
+    "D2": 80,
+    "N2": 0,
+    "T2": 2,
+    "E2": 1,
+    "Spoke": 0,
+    "N3": 0,
+    "E3": 3,
+    "R3": 3,
+    "Th": 3
+  },
+  "comment": ""
+}

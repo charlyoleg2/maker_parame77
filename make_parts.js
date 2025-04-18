@@ -8,12 +8,22 @@ const c_Parts = {
 	door1arc_A: 'door1arc_A_v01',
 	door1arc_B: 'door1arc_B_v01',
 	stoneTower: 'stoneTower_v01',
+	springTorqueA_A1: 'springTorqueA_A1_v01',
+	springTorqueA_B1: 'springTorqueA_B1_v01',
+	springTorqueA_B2: 'springTorqueA_B2_v01',
+	springTorqueA_C1: 'springTorqueA_C1_v01',
+	springTorqueA_C2: 'springTorqueA_C2_v01',
 };
 
 const c_svgdxf = {
 	door1arc_A: ['faceDoor'],
 	door1arc_B: ['faceDoor'],
 	stoneTower: ['faceHplan', 'faceDoor', 'faceWin1', 'faceWin2', 'faceWin3', 'faceWin4', 'faceCorri', 'faceFS', 'faceTopExt', 'faceTCFront', 'faceTCMid', 'faceTCRear', 'faceFloors', 'faceStairsL1', 'faceStairsL2', 'faceStairsW1', 'faceStairsW2'],
+	springTorqueA_A1: ['faceProfile'],
+	springTorqueA_B1: ['faceProfile'],
+	springTorqueA_B2: ['faceProfile'],
+	springTorqueA_C1: ['faceProfile'],
+	springTorqueA_C2: ['faceProfile'],
 };
 
 function inferDesignName(instanceName) {
