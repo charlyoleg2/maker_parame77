@@ -1,3 +1,4 @@
 springTorqueA simTime: 0
 Dmax 24.00, Dmin 16.00 mm
+Triangle vs quadri: quadri
 springTorqueA drawn successfully!

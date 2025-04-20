@@ -336,5 +336,5 @@
     ]
   },
   "subs": {},
-  "log": "springTorqueA simTime: 0\nDmax 24.00, Dmin 16.00 mm\nspringTorqueA drawn successfully!\n"
+  "log": "springTorqueA simTime: 0\nDmax 24.00, Dmin 16.00 mm\nTriangle vs quadri: quadri\nspringTorqueA drawn successfully!\n"
 }

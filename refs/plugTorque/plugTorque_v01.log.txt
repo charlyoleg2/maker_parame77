@@ -1,0 +1,8 @@
+plugTorque simTime: 0
+Extern: Dmax 37.00, Dmin 18.00 mm
+Intern: Dmax 26.00, Dmin 7.00 mm
+aSlack: 0.90 degree
+Tooth: Ht 2, moduli 2.75, Hti 4.20, Hte 4.20 mm
+Tooth angle intern: aM 0, aM[adden] -11.25, aM[deden] 11.25 degree
+Tooth angle extern: aM 0, aM[adden] -11.70, aM[deden] 10.80 degree
+plugTorque drawn successfully!

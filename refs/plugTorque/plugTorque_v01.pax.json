@@ -1,0 +1,1413 @@
+{
+  "partName": "plugTorque",
+  "pDef": {
+    "partName": "plugTorque",
+    "params": [
+      {
+        "name": "Nt",
+        "unit": "teeth",
+        "init": 8,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Dt",
+        "unit": "mm",
+        "init": 22,
+        "min": 0.1,
+        "max": 1000,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Ht",
+        "unit": "mm",
+        "init": 2,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Th",
+        "unit": "mm",
+        "init": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "make3D",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 2,
+        "step": 1,
+        "dropdown": [
+          "both",
+          "intern",
+          "extern"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "Tooth profile",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "ati",
+        "unit": "%",
+        "init": 50,
+        "min": 1,
+        "max": 99,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "ate",
+        "unit": "%",
+        "init": 52,
+        "min": 1,
+        "max": 99,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "ah",
+        "unit": "%",
+        "init": 100,
+        "min": 1,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "dh",
+        "unit": "%",
+        "init": 100,
+        "min": 1,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "aeh",
+        "unit": "%",
+        "init": 10,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "deh",
+        "unit": "%",
+        "init": 10,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "aM",
+        "unit": "degree",
+        "init": 0,
+        "min": -30,
+        "max": 30,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Tooth profile details",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "SnAai",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [
+          "stroke",
+          "arc"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "SnAae",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [
+          "stroke",
+          "arc"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "SnAdi",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [
+          "stroke",
+          "arc"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "SnAde",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [
+          "stroke",
+          "arc"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "Rai",
+        "unit": "mm",
+        "init": 1,
+        "min": 0,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Rae",
+        "unit": "mm",
+        "init": 1,
+        "min": 0,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Rdi",
+        "unit": "mm",
+        "init": 1,
+        "min": 0,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Rde",
+        "unit": "mm",
+        "init": 1,
+        "min": 0,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Internal part",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "Ni",
+        "unit": "holes",
+        "init": 5,
+        "min": 0,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Di",
+        "unit": "mm",
+        "init": 12,
+        "min": 0.1,
+        "max": 1000,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "DTi",
+        "unit": "mm",
+        "init": 3,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Ei",
+        "unit": "mm",
+        "init": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "External part",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "Ne",
+        "unit": "holes",
+        "init": 8,
+        "min": 0,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "De",
+        "unit": "mm",
+        "init": 32,
+        "min": 0.1,
+        "max": 1000,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "DTe",
+        "unit": "mm",
+        "init": 3,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Ee",
+        "unit": "mm",
+        "init": 1,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "Nt": "plugTorque_teeth_radial.svg",
+      "Dt": "plugTorque_teeth_radial.svg",
+      "Ht": "plugTorque_teeth_radial.svg",
+      "Th": "plugTorque_parts.svg",
+      "make3D": "plugTorque_parts.svg",
+      "ati": "plugTorque_teeth_radial.svg",
+      "ate": "plugTorque_teeth_radial.svg",
+      "ah": "plugTorque_teeth_radial.svg",
+      "dh": "plugTorque_teeth_radial.svg",
+      "aeh": "plugTorque_teeth_radial.svg",
+      "deh": "plugTorque_teeth_radial.svg",
+      "aM": "plugTorque_teeth_adden.svg",
+      "SnAai": "plugTorque_teeth_radial.svg",
+      "SnAae": "plugTorque_teeth_radial.svg",
+      "SnAdi": "plugTorque_teeth_radial.svg",
+      "SnAde": "plugTorque_teeth_radial.svg",
+      "Rai": "plugTorque_teeth_adden.svg",
+      "Rae": "plugTorque_teeth_adden.svg",
+      "Rdi": "plugTorque_teeth_deden.svg",
+      "Rde": "plugTorque_teeth_deden.svg",
+      "Ni": "plugTorque_parts.svg",
+      "Di": "plugTorque_parts.svg",
+      "DTi": "plugTorque_parts.svg",
+      "Ei": "plugTorque_parts.svg",
+      "Ne": "plugTorque_parts.svg",
+      "De": "plugTorque_parts.svg",
+      "DTe": "plugTorque_parts.svg",
+      "Ee": "plugTorque_parts.svg"
+    },
+    "sim": {
+      "tMax": 180,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "Nt": 8,
+    "Dt": 22,
+    "Ht": 2,
+    "Th": 1,
+    "make3D": 0,
+    "Tooth profile": 0,
+    "ati": 50,
+    "ate": 52,
+    "ah": 100,
+    "dh": 100,
+    "aeh": 10,
+    "deh": 10,
+    "aM": 0,
+    "Tooth profile details": 0,
+    "SnAai": 0,
+    "SnAae": 0,
+    "SnAdi": 0,
+    "SnAde": 0,
+    "Rai": 1,
+    "Rae": 1,
+    "Rdi": 1,
+    "Rde": 1,
+    "Internal part": 0,
+    "Ni": 5,
+    "Di": 12,
+    "DTi": 3,
+    "Ei": 1,
+    "External part": 0,
+    "Ne": 8,
+    "De": 32,
+    "DTe": 3,
+    "Ee": 1
+  },
+  "figures": {
+    "faceIntern": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 9.62067879082866,
+              "py": -1.521019745671305e-15
+            },
+            {
+              "typ": 1,
+              "px": 11.781496474412023,
+              "py": 1.4922364423610807e-16
+            },
+            {
+              "typ": 2,
+              "px": 12.762281754815254,
+              "py": 1.1950903220161286,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 12.248152167831474,
+              "py": 3.7797942987300392
+            },
+            {
+              "typ": 2,
+              "px": 10.884683455063154,
+              "py": 4.508583509225198,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 8.888348223712034,
+              "py": 3.6816743813563337
+            },
+            {
+              "typ": 2,
+              "px": 7.674195179044399,
+              "py": 4.049983680848019,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 6.678484381496543,
+              "py": 5.540170198406391
+            },
+            {
+              "typ": 2,
+              "px": 6.802847212612541,
+              "py": 6.80284721261254,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 8.330776049582145,
+              "py": 8.330776049582143
+            },
+            {
+              "typ": 2,
+              "px": 8.1792395014152,
+              "py": 9.869352443071236,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 5.988033274756086,
+              "py": 11.33346963500061
+            },
+            {
+              "typ": 2,
+              "px": 4.508583509225198,
+              "py": 10.884683455063154,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 3.681674381356334,
+              "py": 8.888348223712034
+            },
+            {
+              "typ": 2,
+              "px": 2.562704526828919,
+              "py": 8.290246375673894,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 0.8049096779838721,
+              "py": 8.63989351042543
+            },
+            {
+              "typ": 2,
+              "px": 5.890966743406575e-16,
+              "py": 9.620678790828661,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 6.000701076248935e-16,
+              "py": 11.781496474412023
+            },
+            {
+              "typ": 2,
+              "px": -1.1950903220161277,
+              "py": 12.762281754815254,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -3.779794298730038,
+              "py": 12.248152167831474
+            },
+            {
+              "typ": 2,
+              "px": -4.508583509225197,
+              "py": 10.884683455063152,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -3.6816743813563337,
+              "py": 8.888348223712034
+            },
+            {
+              "typ": 2,
+              "px": -4.049983680848018,
+              "py": 7.674195179044399,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -5.540170198406391,
+              "py": 6.678484381496543
+            },
+            {
+              "typ": 2,
+              "px": -6.80284721261254,
+              "py": 6.802847212612541,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -8.330776049582143,
+              "py": 8.330776049582145
+            },
+            {
+              "typ": 2,
+              "px": -9.869352443071236,
+              "py": 8.1792395014152,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -11.333469635000608,
+              "py": 5.988033274756088
+            },
+            {
+              "typ": 2,
+              "px": -10.884683455063152,
+              "py": 4.508583509225199,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -8.888348223712034,
+              "py": 3.681674381356335
+            },
+            {
+              "typ": 2,
+              "px": -8.290246375673894,
+              "py": 2.5627045268289192,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -8.63989351042543,
+              "py": 0.8049096779838727
+            },
+            {
+              "typ": 2,
+              "px": -9.620678790828661,
+              "py": 1.178193348681315e-15,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -11.781496474412025,
+              "py": 1.4428171946554513e-15
+            },
+            {
+              "typ": 2,
+              "px": -12.762281754815255,
+              "py": -1.1950903220161262,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -12.248152167831476,
+              "py": -3.7797942987300384
+            },
+            {
+              "typ": 2,
+              "px": -10.884683455063156,
+              "py": -4.508583509225197,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -8.888348223712036,
+              "py": -3.681674381356333
+            },
+            {
+              "typ": 2,
+              "px": -7.674195179044401,
+              "py": -4.049983680848017,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -6.678484381496544,
+              "py": -5.540170198406391
+            },
+            {
+              "typ": 2,
+              "px": -6.802847212612542,
+              "py": -6.802847212612541,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -8.330776049582145,
+              "py": -8.330776049582145
+            },
+            {
+              "typ": 2,
+              "px": -8.1792395014152,
+              "py": -9.869352443071236,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -5.988033274756093,
+              "py": -11.333469635000606
+            },
+            {
+              "typ": 2,
+              "px": -4.508583509225204,
+              "py": -10.88468345506315,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -3.681674381356339,
+              "py": -8.888348223712033
+            },
+            {
+              "typ": 2,
+              "px": -2.5627045268289237,
+              "py": -8.290246375673892,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -0.8049096779838733,
+              "py": -8.63989351042543
+            },
+            {
+              "typ": 2,
+              "px": -1.930736287918489e-15,
+              "py": -9.620678790828661,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -2.3134494362192846e-15,
+              "py": -11.781496474412023
+            },
+            {
+              "typ": 2,
+              "px": 1.1950903220161262,
+              "py": -12.762281754815254,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 3.7797942987300406,
+              "py": -12.248152167831472
+            },
+            {
+              "typ": 2,
+              "px": 4.5085835092252,
+              "py": -10.88468345506315,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 3.681674381356336,
+              "py": -8.888348223712034
+            },
+            {
+              "typ": 2,
+              "px": 4.049983680848021,
+              "py": -7.674195179044399,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 5.54017019840639,
+              "py": -6.678484381496545
+            },
+            {
+              "typ": 2,
+              "px": 6.802847212612539,
+              "py": -6.8028472126125425,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 8.330776049582143,
+              "py": -8.330776049582145
+            },
+            {
+              "typ": 2,
+              "px": 9.869352443071234,
+              "py": -8.1792395014152,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 11.333469635000604,
+              "py": -5.988033274756094
+            },
+            {
+              "typ": 2,
+              "px": 10.88468345506315,
+              "py": -4.508583509225204,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 8.888348223712033,
+              "py": -3.6816743813563395
+            },
+            {
+              "typ": 2,
+              "px": 8.290246375673892,
+              "py": -2.562704526828924,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 8.63989351042543,
+              "py": -0.8049096779838726
+            },
+            {
+              "typ": 2,
+              "px": 9.62067879082866,
+              "py": -1.521019745671305e-15,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 3.5
+        },
+        {
+          "circle": true,
+          "cx": 6,
+          "cy": 0,
+          "radius": 1.5
+        },
+        {
+          "circle": true,
+          "cx": 1.8541019662496847,
+          "cy": 5.706339097770921,
+          "radius": 1.5
+        },
+        {
+          "circle": true,
+          "cx": -4.854101966249684,
+          "cy": 3.5267115137548393,
+          "radius": 1.5
+        },
+        {
+          "circle": true,
+          "cx": -4.854101966249685,
+          "cy": -3.5267115137548384,
+          "radius": 1.5
+        },
+        {
+          "circle": true,
+          "cx": 1.8541019662496834,
+          "cy": -5.706339097770922,
+          "radius": 1.5
+        }
+      ]
+    ],
+    "faceExtern": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 18.5
+        },
+        {
+          "circle": true,
+          "cx": 16,
+          "cy": 0,
+          "radius": 1.5
+        },
+        {
+          "circle": true,
+          "cx": 11.313708498984761,
+          "cy": 11.31370849898476,
+          "radius": 1.5
+        },
+        {
+          "circle": true,
+          "cx": 9.797174393178826e-16,
+          "cy": 16,
+          "radius": 1.5
+        },
+        {
+          "circle": true,
+          "cx": -11.31370849898476,
+          "cy": 11.313708498984761,
+          "radius": 1.5
+        },
+        {
+          "circle": true,
+          "cx": -16,
+          "cy": 1.959434878635765e-15,
+          "radius": 1.5
+        },
+        {
+          "circle": true,
+          "cx": -11.313708498984763,
+          "cy": -11.31370849898476,
+          "radius": 1.5
+        },
+        {
+          "circle": true,
+          "cx": -2.9391523179536475e-15,
+          "cy": -16,
+          "radius": 1.5
+        },
+        {
+          "circle": true,
+          "cx": 11.313708498984758,
+          "cy": -11.313708498984763,
+          "radius": 1.5
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 9.827271945972475,
+              "py": -1.548828402636851e-15
+            },
+            {
+              "typ": 1,
+              "px": 11.971691914945492,
+              "py": 1.5042435647288172e-16
+            },
+            {
+              "typ": 2,
+              "px": 12.950914725567259,
+              "py": 1.2027872953565135,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 12.36344633346129,
+              "py": 4.039564861022591
+            },
+            {
+              "typ": 2,
+              "px": 10.987075632204744,
+              "py": 4.75453219135006,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 9.019024286270659,
+              "py": 3.9028803240373247
+            },
+            {
+              "typ": 2,
+              "px": 7.7947958213613155,
+              "py": 4.258551571869176,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 6.828956840473443,
+              "py": 5.679740474522778
+            },
+            {
+              "typ": 2,
+              "px": 6.948930633561457,
+              "py": 6.9489306335614565,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 8.465264535334123,
+              "py": 8.465264535334123
+            },
+            {
+              "typ": 2,
+              "px": 8.307180572145707,
+              "py": 10.00817867788894,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 5.88587303495447,
+              "py": 11.598680447498403
+            },
+            {
+              "typ": 2,
+              "px": 4.4070737310680865,
+              "py": 11.130997638814812,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 3.617660089221803,
+              "py": 9.137166375794486
+            },
+            {
+              "typ": 2,
+              "px": 2.500502288747827,
+              "py": 8.523003677750475,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 0.8126186854142758,
+              "py": 8.844984695243786
+            },
+            {
+              "typ": 2,
+              "px": 6.017468566492887e-16,
+              "py": 9.827271945972475,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 6.107398822015443e-16,
+              "py": 11.971691914945493
+            },
+            {
+              "typ": 2,
+              "px": -1.2027872953565113,
+              "py": 12.950914725567259,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -4.03956486102259,
+              "py": 12.363446333461292
+            },
+            {
+              "typ": 2,
+              "px": -4.754532191350059,
+              "py": 10.987075632204746,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -3.9028803240373233,
+              "py": 9.01902428627066
+            },
+            {
+              "typ": 2,
+              "px": -4.258551571869174,
+              "py": 7.794795821361317,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -5.679740474522778,
+              "py": 6.828956840473443
+            },
+            {
+              "typ": 2,
+              "px": -6.9489306335614565,
+              "py": 6.948930633561457,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -8.465264535334123,
+              "py": 8.465264535334123
+            },
+            {
+              "typ": 2,
+              "px": -10.00817867788894,
+              "py": 8.307180572145707,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -11.598680447498403,
+              "py": 5.885873034954471
+            },
+            {
+              "typ": 2,
+              "px": -11.130997638814812,
+              "py": 4.407073731068087,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -9.137166375794486,
+              "py": 3.6176600892218045
+            },
+            {
+              "typ": 2,
+              "px": -8.523003677750475,
+              "py": 2.5005022887478274,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -8.844984695243786,
+              "py": 0.8126186854142764
+            },
+            {
+              "typ": 2,
+              "px": -9.827271945972475,
+              "py": 1.2034937132985774e-15,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -11.971691914945493,
+              "py": 1.4661094184016246e-15
+            },
+            {
+              "typ": 2,
+              "px": -12.950914725567259,
+              "py": -1.2027872953565106,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -12.363446333461292,
+              "py": -4.039564861022589
+            },
+            {
+              "typ": 2,
+              "px": -10.987075632204746,
+              "py": -4.754532191350058,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -9.01902428627066,
+              "py": -3.9028803240373224
+            },
+            {
+              "typ": 2,
+              "px": -7.794795821361317,
+              "py": -4.258551571869173,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -6.8289568404734435,
+              "py": -5.679740474522778
+            },
+            {
+              "typ": 2,
+              "px": -6.948930633561457,
+              "py": -6.948930633561456,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -8.465264535334125,
+              "py": -8.465264535334123
+            },
+            {
+              "typ": 2,
+              "px": -8.30718057214571,
+              "py": -10.00817867788894,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -5.885873034954466,
+              "py": -11.598680447498404
+            },
+            {
+              "typ": 2,
+              "px": -4.407073731068084,
+              "py": -11.130997638814812,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -3.6176600892218014,
+              "py": -9.137166375794488
+            },
+            {
+              "typ": 2,
+              "px": -2.500502288747825,
+              "py": -8.523003677750477,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -0.8126186854142782,
+              "py": -8.844984695243788
+            },
+            {
+              "typ": 2,
+              "px": -1.9699999266339878e-15,
+              "py": -9.827271945972477,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -2.3495884840753184e-15,
+              "py": -11.971691914945493
+            },
+            {
+              "typ": 2,
+              "px": 1.2027872953565097,
+              "py": -12.950914725567259,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 4.039564861022592,
+              "py": -12.36344633346129
+            },
+            {
+              "typ": 2,
+              "px": 4.754532191350061,
+              "py": -10.987075632204743,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 3.9028803240373255,
+              "py": -9.019024286270659
+            },
+            {
+              "typ": 2,
+              "px": 4.258551571869176,
+              "py": -7.7947958213613155,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 5.679740474522776,
+              "py": -6.8289568404734435
+            },
+            {
+              "typ": 2,
+              "px": 6.948930633561455,
+              "py": -6.948930633561458,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 8.465264535334121,
+              "py": -8.465264535334125
+            },
+            {
+              "typ": 2,
+              "px": 10.008178677888939,
+              "py": -8.30718057214571,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 11.598680447498404,
+              "py": -5.885873034954467
+            },
+            {
+              "typ": 2,
+              "px": 11.130997638814813,
+              "py": -4.407073731068084,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 9.137166375794488,
+              "py": -3.6176600892218014
+            },
+            {
+              "typ": 2,
+              "px": 8.523003677750477,
+              "py": -2.500502288747825,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 8.844984695243788,
+              "py": -0.812618685414277
+            },
+            {
+              "typ": 2,
+              "px": 9.827271945972475,
+              "py": -1.548828402636851e-15,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_plugTorque_intern",
+        "face": "plugTorque_faceIntern",
+        "extrudeMethod": 0,
+        "length": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_plugTorque_extern",
+        "face": "plugTorque_faceExtern",
+        "extrudeMethod": 0,
+        "length": 1,
+        "rotate": [
+          0,
+          0,
+          -0.007853981633974483
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_plugTorque",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_plugTorque_intern",
+          "subpax_plugTorque_extern"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "plugTorque simTime: 0\nExtern: Dmax 37.00, Dmin 18.00 mm\nIntern: Dmax 26.00, Dmin 7.00 mm\naSlack: 0.90 degree\nTooth: Ht 2, moduli 2.75, Hti 4.20, Hte 4.20 mm\nTooth angle intern: aM 0, aM[adden] -11.25, aM[deden] 11.25 degree\nTooth angle extern: aM 0, aM[adden] -11.70, aM[deden] 10.80 degree\nplugTorque drawn successfully!\n"
+}
