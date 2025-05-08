@@ -1,0 +1,5 @@
+springTorqueB simTime: 0
+Dmax 84.00, Dmin1 26.00 mm
+Spring area: aSpring 6.26 degree, dRLs 9.03, HLs 3.07 mm
+Spring zigzag: Ek 0.53, Rk 0.77 mm
+springTorqueB drawn successfully!

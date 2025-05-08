@@ -1,0 +1,6 @@
+springTorqueC simTime: 0
+Dmax 84.00, Dmin1 26.00 mm
+Spring area: aSpring 7.48 degree, dRLs 16.80 mm
+Spring zigzag: Ek 4.60, Rk 2.80 mm
+Spring zigzag forced to stroke because of aArcMin 16.86 degree
+springTorqueC drawn successfully!

@@ -15,7 +15,11 @@ const c_Parts = {
 	springTorqueA_C2: 'springTorqueA_C2_v01',
 	plugTorque: 'plugTorque_v01',
 	springTorqueB_A: 'springTorqueB_A_v01',
+	springTorqueB_B: 'springTorqueB_B_v01',
+	springTorqueB_C: 'springTorqueB_C_v01',
 	springTorqueC_A: 'springTorqueC_A_v01',
+	springTorqueC_B: 'springTorqueC_B_v01',
+	springTorqueC_C: 'springTorqueC_C_v01',
 };
 
 const c_svgdxf = {
@@ -29,7 +33,11 @@ const c_svgdxf = {
 	springTorqueA_C2: ['faceProfile'],
 	plugTorque: ['faceIntern', 'faceExtern'],
 	springTorqueB_A: ['faceProfile'],
+	springTorqueB_B: ['faceProfile'],
+	springTorqueB_C: ['faceProfile'],
 	springTorqueC_A: ['faceProfile'],
+	springTorqueC_B: ['faceProfile'],
+	springTorqueC_C: ['faceProfile'],
 };
 
 function inferDesignName(instanceName) {

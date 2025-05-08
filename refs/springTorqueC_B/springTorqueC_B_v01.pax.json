@@ -1,0 +1,1421 @@
+{
+  "partName": "springTorqueC",
+  "pDef": {
+    "partName": "springTorqueC",
+    "params": [
+      {
+        "name": "De",
+        "unit": "mm",
+        "init": 80,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Ne",
+        "unit": "hole",
+        "init": 16,
+        "min": 0,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "DTe",
+        "unit": "mm",
+        "init": 2,
+        "min": 0.1,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Ee",
+        "unit": "mm",
+        "init": 1,
+        "min": 0.1,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Teeth",
+        "unit": "checkbox",
+        "init": 1,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [],
+        "pType": 1
+      },
+      {
+        "name": "Th",
+        "unit": "mm",
+        "init": 3,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Internal ring",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "Di",
+        "unit": "mm",
+        "init": 30,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Ni",
+        "unit": "hole",
+        "init": 8,
+        "min": 0,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "DTi",
+        "unit": "mm",
+        "init": 2,
+        "min": 0.1,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Ei",
+        "unit": "mm",
+        "init": 1,
+        "min": 0.1,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Spring",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "Ns",
+        "unit": "spring",
+        "init": 6,
+        "min": 1,
+        "max": 60,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "zig",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 2,
+        "step": 1,
+        "dropdown": [
+          "alt",
+          "one",
+          "two"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "zag",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [
+          "arc",
+          "stroke"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "aEs",
+        "unit": "%",
+        "init": 20,
+        "min": 1,
+        "max": 99,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Esi",
+        "unit": "%",
+        "init": 10,
+        "min": 0,
+        "max": 90,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Ese",
+        "unit": "%",
+        "init": 10,
+        "min": 0,
+        "max": 90,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Nk",
+        "unit": "zigzag",
+        "init": 4,
+        "min": 2,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Wk",
+        "unit": "mm",
+        "init": 1,
+        "min": 0.1,
+        "max": 20,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Rrsi",
+        "unit": "mm",
+        "init": 0.1,
+        "min": 0,
+        "max": 20,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Rrse",
+        "unit": "mm",
+        "init": 1,
+        "min": 0,
+        "max": 20,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Tooth Profile",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "Nt",
+        "unit": "teeth",
+        "init": 8,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Dt",
+        "unit": "mm",
+        "init": 20,
+        "min": 0.1,
+        "max": 1000,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Ht",
+        "unit": "mm",
+        "init": 2,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "ate",
+        "unit": "%",
+        "init": 52,
+        "min": 1,
+        "max": 99,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "ah",
+        "unit": "%",
+        "init": 100,
+        "min": 1,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "dh",
+        "unit": "%",
+        "init": 100,
+        "min": 1,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "aeh",
+        "unit": "%",
+        "init": 10,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "aM",
+        "unit": "degree",
+        "init": 0,
+        "min": -30,
+        "max": 30,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Tooth profile details",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "SnAae",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [
+          "stroke",
+          "arc"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "SnAde",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [
+          "stroke",
+          "arc"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "Rae",
+        "unit": "mm",
+        "init": 1,
+        "min": 0,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Rde",
+        "unit": "mm",
+        "init": 1,
+        "min": 0,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "De": "springTorqueC_profile.svg",
+      "Ne": "springTorqueC_profile.svg",
+      "DTe": "springTorqueC_profile.svg",
+      "Ee": "springTorqueC_profile.svg",
+      "Teeth": "springTorqueC_profile.svg",
+      "Th": "springTorqueC_profile.svg",
+      "Di": "springTorqueC_profile.svg",
+      "Ni": "springTorqueC_profile.svg",
+      "DTi": "springTorqueC_profile.svg",
+      "Ei": "springTorqueC_profile.svg",
+      "Ns": "springTorqueC_profile.svg",
+      "zig": "springTorqueC_profile.svg",
+      "zag": "springTorqueC_profile.svg",
+      "aEs": "springTorqueC_profile.svg",
+      "Esi": "springTorqueC_profile.svg",
+      "Ese": "springTorqueC_profile.svg",
+      "Nk": "springTorqueC_profile.svg",
+      "Wk": "springTorqueC_profile.svg",
+      "Rrsi": "springTorqueC_profile.svg",
+      "Rrse": "springTorqueC_profile.svg",
+      "Nt": "plugTorque_teeth_radial.svg",
+      "Dt": "plugTorque_teeth_radial.svg",
+      "Ht": "plugTorque_teeth_radial.svg",
+      "ate": "plugTorque_teeth_radial.svg",
+      "dh": "plugTorque_teeth_radial.svg",
+      "ah": "plugTorque_teeth_radial.svg",
+      "aeh": "plugTorque_teeth_radial.svg",
+      "aM": "plugTorque_teeth_adden.svg",
+      "SnAae": "plugTorque_teeth_radial.svg",
+      "SnAde": "plugTorque_teeth_radial.svg",
+      "Rae": "plugTorque_teeth_radial.svg",
+      "Rde": "plugTorque_teeth_radial.svg"
+    },
+    "sim": {
+      "tMax": 180,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "De": 80,
+    "Ne": 16,
+    "DTe": 2,
+    "Ee": 1,
+    "Teeth": 1,
+    "Th": 3,
+    "Internal ring": 0,
+    "Di": 30,
+    "Ni": 8,
+    "DTi": 2,
+    "Ei": 1,
+    "Spring": 0,
+    "Ns": 1,
+    "zig": 0,
+    "zag": 0,
+    "aEs": 1,
+    "Esi": 10,
+    "Ese": 10,
+    "Nk": 9,
+    "Wk": 1,
+    "Rrsi": 0.1,
+    "Rrse": 1,
+    "Tooth Profile": 0,
+    "Nt": 8,
+    "Dt": 20,
+    "Ht": 2,
+    "ate": 52,
+    "ah": 100,
+    "dh": 100,
+    "aeh": 10,
+    "aM": 0,
+    "Tooth profile details": 0,
+    "SnAae": 0,
+    "SnAde": 0,
+    "Rae": 1,
+    "Rde": 1
+  },
+  "figures": {
+    "faceProfile": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 42
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 8.827271945972475,
+              "py": -1.3720834959510154e-15
+            },
+            {
+              "typ": 1,
+              "px": 10.971691914945493,
+              "py": 1.5042435647288155e-16
+            },
+            {
+              "typ": 2,
+              "px": 11.950914725567259,
+              "py": 1.2027872953565122,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 11.44569170777731,
+              "py": 3.642416970387811
+            },
+            {
+              "typ": 2,
+              "px": 10.069321006520765,
+              "py": 4.35738430071528,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 8.101269660586677,
+              "py": 3.5057324334025437
+            },
+            {
+              "typ": 2,
+              "px": 6.877041195677335,
+              "py": 3.8614036812343944,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 6.121850059286896,
+              "py": 4.97263369333623
+            },
+            {
+              "typ": 2,
+              "px": 6.241823852374909,
+              "py": 6.2418238523749086,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 7.758157754147577,
+              "py": 7.758157754147575
+            },
+            {
+              "typ": 2,
+              "px": 7.600073790959161,
+              "py": 9.301071896702393,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 5.517748482269791,
+              "py": 10.668903961610152
+            },
+            {
+              "typ": 2,
+              "px": 4.038949178383408,
+              "py": 10.20122115292656,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 3.2495355365371252,
+              "py": 8.207389889906235
+            },
+            {
+              "typ": 2,
+              "px": 2.132377736063149,
+              "py": 7.593227191862224,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 0.8126186854142756,
+              "py": 7.844984695243787
+            },
+            {
+              "typ": 2,
+              "px": 5.40514516691921e-16,
+              "py": 8.827271945972475,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 5.495075422441767e-16,
+              "py": 10.971691914945493
+            },
+            {
+              "typ": 2,
+              "px": -1.2027872953565115,
+              "py": 11.950914725567259,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -3.642416970387809,
+              "py": 11.44569170777731
+            },
+            {
+              "typ": 2,
+              "px": -4.357384300715278,
+              "py": 10.069321006520765,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -3.505732433402543,
+              "py": 8.101269660586679
+            },
+            {
+              "typ": 2,
+              "px": -3.8614036812343935,
+              "py": 6.877041195677336,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -4.97263369333623,
+              "py": 6.121850059286896
+            },
+            {
+              "typ": 2,
+              "px": -6.2418238523749086,
+              "py": 6.241823852374909,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -7.758157754147575,
+              "py": 7.758157754147577
+            },
+            {
+              "typ": 2,
+              "px": -9.301071896702393,
+              "py": 7.600073790959161,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -10.668903961610152,
+              "py": 5.517748482269792
+            },
+            {
+              "typ": 2,
+              "px": -10.20122115292656,
+              "py": 4.038949178383409,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -8.207389889906235,
+              "py": 3.249535536537126
+            },
+            {
+              "typ": 2,
+              "px": -7.5932271918622245,
+              "py": 2.132377736063149,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -7.844984695243787,
+              "py": 0.8126186854142766
+            },
+            {
+              "typ": 2,
+              "px": -8.827271945972475,
+              "py": 1.081029033383842e-15,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -10.971691914945493,
+              "py": 1.3436447384868893e-15
+            },
+            {
+              "typ": 2,
+              "px": -11.950914725567259,
+              "py": -1.2027872953565106,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -11.44569170777731,
+              "py": -3.642416970387808
+            },
+            {
+              "typ": 2,
+              "px": -10.069321006520765,
+              "py": -4.357384300715277,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -8.101269660586677,
+              "py": -3.5057324334025415
+            },
+            {
+              "typ": 2,
+              "px": -6.877041195677336,
+              "py": -3.8614036812343926,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -6.121850059286896,
+              "py": -4.97263369333623
+            },
+            {
+              "typ": 2,
+              "px": -6.241823852374909,
+              "py": -6.241823852374908,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -7.758157754147577,
+              "py": -7.758157754147575
+            },
+            {
+              "typ": 2,
+              "px": -7.600073790959161,
+              "py": -9.301071896702393,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -5.517748482269788,
+              "py": -10.668903961610154
+            },
+            {
+              "typ": 2,
+              "px": -4.0389491783834055,
+              "py": -10.20122115292656,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -3.249535536537123,
+              "py": -8.207389889906235
+            },
+            {
+              "typ": 2,
+              "px": -2.132377736063147,
+              "py": -7.5932271918622245,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -0.8126186854142778,
+              "py": -7.844984695243787
+            },
+            {
+              "typ": 2,
+              "px": -1.7863029067618847e-15,
+              "py": -8.827271945972477,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -2.1658914642032153e-15,
+              "py": -10.971691914945493
+            },
+            {
+              "typ": 2,
+              "px": 1.20278729535651,
+              "py": -11.950914725567259,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 3.6424169703878118,
+              "py": -11.445691707777309
+            },
+            {
+              "typ": 2,
+              "px": 4.357384300715281,
+              "py": -10.069321006520761,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 3.505732433402545,
+              "py": -8.101269660586677
+            },
+            {
+              "typ": 2,
+              "px": 3.8614036812343957,
+              "py": -6.877041195677334,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 4.972633693336229,
+              "py": -6.121850059286896
+            },
+            {
+              "typ": 2,
+              "px": 6.241823852374908,
+              "py": -6.24182385237491,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 7.7581577541475735,
+              "py": -7.758157754147577
+            },
+            {
+              "typ": 2,
+              "px": 9.30107189670239,
+              "py": -7.600073790959161,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 10.668903961610154,
+              "py": -5.5177484822697895
+            },
+            {
+              "typ": 2,
+              "px": 10.20122115292656,
+              "py": -4.0389491783834055,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 8.207389889906235,
+              "py": -3.2495355365371235
+            },
+            {
+              "typ": 2,
+              "px": 7.5932271918622245,
+              "py": -2.1323777360631473,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 7.844984695243787,
+              "py": -0.8126186854142767
+            },
+            {
+              "typ": 2,
+              "px": 8.827271945972475,
+              "py": -1.3720834959510154e-15,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 15,
+          "cy": 0,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": 10.606601717798213,
+          "cy": 10.606601717798211,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": 9.18485099360515e-16,
+          "cy": 15,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -10.606601717798211,
+          "cy": 10.606601717798213,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -15,
+          "cy": 1.83697019872103e-15,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -10.606601717798215,
+          "cy": -10.606601717798211,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -2.7554552980815444e-15,
+          "cy": -15,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": 10.60660171779821,
+          "cy": -10.606601717798215,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": 40,
+          "cy": 0,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": 36.95518130045147,
+          "cy": 15.307337294603592,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": 28.284271247461902,
+          "cy": 28.2842712474619,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": 15.307337294603593,
+          "cy": 36.95518130045147,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": 2.4492935982947065e-15,
+          "cy": 40,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -15.307337294603588,
+          "cy": 36.95518130045147,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -28.2842712474619,
+          "cy": 28.284271247461902,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -36.95518130045147,
+          "cy": 15.307337294603595,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -40,
+          "cy": 4.898587196589413e-15,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -36.95518130045147,
+          "cy": -15.307337294603586,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -28.28427124746191,
+          "cy": -28.2842712474619,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -15.307337294603613,
+          "cy": -36.95518130045146,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": -7.347880794884118e-15,
+          "cy": -40,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": 15.3073372946036,
+          "cy": -36.955181300451464,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": 28.284271247461895,
+          "cy": -28.28427124746191,
+          "radius": 1
+        },
+        {
+          "circle": true,
+          "cx": 36.95518130045146,
+          "cy": -15.307337294603617,
+          "radius": 1
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 17.08947044235134,
+              "py": 0.5
+            },
+            {
+              "typ": 1,
+              "px": 19.0711169048905,
+              "py": 0.49999999999999994
+            },
+            {
+              "typ": 2,
+              "px": 19.62028519272766,
+              "py": 1.0802356020942407,
+              "radius": 0.5500000000000043,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 19.526047071490527,
+              "py": -2.203630132743743,
+              "radius": 19.650000000000006,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 22.606492156560282,
+              "py": -2.5512766167898295,
+              "radius": 1.550000000000001,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 22.726887931254186,
+              "py": 1.0252145922746776,
+              "radius": 22.750000000000004,
+              "large": true,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 23.825770424633507,
+              "py": 1.0747854077253216,
+              "radius": 0.5499999999999988,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 23.720683858329558,
+              "py": -2.4802534735755852,
+              "radius": 23.85,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 26.80387547094262,
+              "py": -2.8026344282122437,
+              "radius": 1.5499999999999992,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 26.930348289615566,
+              "py": 1.0289999999999997,
+              "radius": 26.95,
+              "large": true,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 28.02954617898763,
+              "py": 1.0709999999999997,
+              "radius": 0.5499999999999967,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 27.914553281348837,
+              "py": -2.7532190437262045,
+              "radius": 28.05,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 30.99958412527688,
+              "py": -3.0574963711968364,
+              "radius": 1.5500000000000014,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 31.132907432722227,
+              "py": 1.031782334384858,
+              "radius": 31.149999999999995,
+              "large": true,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 32.23230384286652,
+              "py": 1.0682176656151423,
+              "radius": 0.5500000000000014,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 32.107921057645704,
+              "py": -3.0238891110606967,
+              "radius": 32.25,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 35.194263856985295,
+              "py": -3.314557521736298,
+              "radius": 1.5500000000000023,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 35.334876857948146,
+              "py": 1.0339136490250695,
+              "radius": 35.35000000000001,
+              "large": true,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 35.88464156153716,
+              "py": 0.5,
+              "radius": 0.5499999999999998,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 36.96958209122737,
+              "py": 0.5
+            },
+            {
+              "typ": 2,
+              "px": 37.968759985584875,
+              "py": 1.5405405405405403,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 37.968759985584875,
+              "py": -1.5405405405405392,
+              "radius": 38,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 36.96958209122737,
+              "py": -0.49999999999999806,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 35.88464156153716,
+              "py": -0.4999999999999976
+            },
+            {
+              "typ": 2,
+              "px": 34.3353046696045,
+              "py": 1.0046657381615451,
+              "radius": 1.54999999999999,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 34.19866940558543,
+              "py": -3.220793518292556,
+              "radius": 34.35,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 33.10351550904557,
+              "py": -3.117653114504439,
+              "radius": 0.5500000000000008,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 33.23175512481587,
+              "py": 1.1013406940062869,
+              "radius": 33.25,
+              "large": true,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 30.133456150772883,
+              "py": 0.9986593059936706,
+              "radius": 1.5499999999999963,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 30.00441288530009,
+              "py": -2.9593423945934068,
+              "radius": 30.150000000000002,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 28.90972452132563,
+              "py": -2.851373020329634,
+              "radius": 0.5499999999999954,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 29.028816987507692,
+              "py": 1.1091818181818112,
+              "radius": 29.05,
+              "large": true,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 25.931077481095507,
+              "py": 0.9908181818181754,
+              "radius": 1.550000000000001,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 25.80929753139002,
+              "py": -2.698640571877838,
+              "radius": 25.95,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 24.715261797882157,
+              "py": -2.584247329909992,
+              "radius": 0.5499999999999983,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 24.824754509523803,
+              "py": 1.119849785407721,
+              "radius": 24.85,
+              "large": true,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 21.72790384636389,
+              "py": 0.9801502145922708,
+              "radius": 1.5500000000000007,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 21.612800193634556,
+              "py": -2.4391325896781884,
+              "radius": 21.750000000000004,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 20.519739034416254,
+              "py": -2.3157741598553825,
+              "radius": 0.5500000000000008,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 20.61877298879523,
+              "py": 1.135209424083767,
+              "radius": 20.650000000000002,
+              "large": true,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 19.0711169048905,
+              "py": -0.49999999999999856,
+              "radius": 1.5499999999999998,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 17.089470442351335,
+              "py": -0.49999999999999817
+            },
+            {
+              "typ": 2,
+              "px": 16.989532018711856,
+              "py": -0.5964912280701758,
+              "radius": 0.1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 16.989532018711856,
+              "py": 0.5964912280701735,
+              "radius": 17,
+              "large": true,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 17.08947044235134,
+              "py": 0.5,
+              "radius": 0.1,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_springTorqueC_profile",
+        "face": "springTorqueC_faceProfile",
+        "extrudeMethod": 0,
+        "length": 3,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_springTorqueC",
+        "boolMethod": 0,
+        "inList": [
+          "subpax_springTorqueC_profile"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "springTorqueC simTime: 0\nDmax 84.00, Dmin1 26.00 mm\nSpring area: aSpring 356.40 degree, dRLs 16.80 mm\nSpring zigzag: Ek 1.10, Rk 1.05 mm\nspringTorqueC drawn successfully!\n"
+}
