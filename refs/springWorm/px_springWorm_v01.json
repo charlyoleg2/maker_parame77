@@ -1,0 +1,32 @@
+{
+  "lastModif": "20250514_203441",
+  "partName": "springWorm",
+  "pVal": {
+    "D1": 30,
+    "E1": 2,
+    "N1": 6,
+    "W2": 2,
+    "W3": 1,
+    "S1": 1,
+    "Extremity caps": 0,
+    "leftCaps": 0,
+    "rightCaps": 0,
+    "W1": 2,
+    "W1b": 1,
+    "Tooth Profile": 0,
+    "Nt": 8,
+    "Dt": 20,
+    "Ht": 2,
+    "ate": 52,
+    "ah": 100,
+    "dh": 100,
+    "aeh": 10,
+    "aM": 0,
+    "Tooth profile details": 0,
+    "SnAae": 0,
+    "SnAde": 0,
+    "Rae": 1,
+    "Rde": 1
+  },
+  "comment": ""
+}
