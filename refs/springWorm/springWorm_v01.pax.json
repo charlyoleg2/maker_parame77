@@ -1,0 +1,1795 @@
+{
+  "partName": "springWorm",
+  "pDef": {
+    "partName": "springWorm",
+    "params": [
+      {
+        "name": "D1",
+        "unit": "mm",
+        "init": 30,
+        "min": 2,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E1",
+        "unit": "mm",
+        "init": 2,
+        "min": 0.1,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "N1",
+        "unit": "groove",
+        "init": 6,
+        "min": 2,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W2",
+        "unit": "mm",
+        "init": 2,
+        "min": 0.1,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W3",
+        "unit": "mm",
+        "init": 1,
+        "min": 0.1,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S1",
+        "unit": "mm",
+        "init": 1,
+        "min": 0.1,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Extremity caps",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "leftCaps",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [
+          "ext",
+          "int"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "rightCaps",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [
+          "ext",
+          "int"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "W1",
+        "unit": "mm",
+        "init": 2,
+        "min": 0.1,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W1b",
+        "unit": "mm",
+        "init": 1,
+        "min": 0.1,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Tooth Profile",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "Nt",
+        "unit": "teeth",
+        "init": 8,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Dt",
+        "unit": "mm",
+        "init": 20,
+        "min": 0.1,
+        "max": 1000,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Ht",
+        "unit": "mm",
+        "init": 2,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "ate",
+        "unit": "%",
+        "init": 52,
+        "min": 1,
+        "max": 99,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "ah",
+        "unit": "%",
+        "init": 100,
+        "min": 1,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "dh",
+        "unit": "%",
+        "init": 100,
+        "min": 1,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "aeh",
+        "unit": "%",
+        "init": 10,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "aM",
+        "unit": "degree",
+        "init": 0,
+        "min": -30,
+        "max": 30,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Tooth profile details",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "SnAae",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [
+          "stroke",
+          "arc"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "SnAde",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [
+          "stroke",
+          "arc"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "Rae",
+        "unit": "mm",
+        "init": 1,
+        "min": 0,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Rde",
+        "unit": "mm",
+        "init": 1,
+        "min": 0,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "D1": "springWorm_mid.svg",
+      "E1": "springWorm_mid.svg",
+      "S1": "springWorm_mid.svg",
+      "W1": "springWorm_side.svg",
+      "W1b": "springWorm_side.svg",
+      "N1": "springWorm_side.svg",
+      "W2": "springWorm_side.svg",
+      "W3": "springWorm_side.svg",
+      "leftCaps": "springWorm_side.svg",
+      "rightCaps": "springWorm_caps.svg",
+      "Nt": "plugTorque_teeth_radial.svg",
+      "Dt": "plugTorque_teeth_radial.svg",
+      "Ht": "plugTorque_teeth_radial.svg",
+      "ate": "plugTorque_teeth_radial.svg",
+      "dh": "plugTorque_teeth_radial.svg",
+      "ah": "plugTorque_teeth_radial.svg",
+      "aeh": "plugTorque_teeth_radial.svg",
+      "aM": "plugTorque_teeth_adden.svg",
+      "SnAae": "plugTorque_teeth_radial.svg",
+      "SnAde": "plugTorque_teeth_radial.svg",
+      "Rae": "plugTorque_teeth_radial.svg",
+      "Rde": "plugTorque_teeth_radial.svg"
+    },
+    "sim": {
+      "tMax": 180,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "D1": 30,
+    "E1": 2,
+    "N1": 6,
+    "W2": 2,
+    "W3": 1,
+    "S1": 1,
+    "Extremity caps": 0,
+    "leftCaps": 0,
+    "rightCaps": 0,
+    "W1": 2,
+    "W1b": 1,
+    "Tooth Profile": 0,
+    "Nt": 8,
+    "Dt": 20,
+    "Ht": 2,
+    "ate": 52,
+    "ah": 100,
+    "dh": 100,
+    "aeh": 10,
+    "aM": 0,
+    "Tooth profile details": 0,
+    "SnAae": 0,
+    "SnAde": 0,
+    "Rae": 1,
+    "Rde": 1
+  },
+  "figures": {
+    "faceTube": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 15
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 13
+        }
+      ]
+    ],
+    "faceGroove1": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 4,
+              "py": 1
+            },
+            {
+              "typ": 2,
+              "px": 5,
+              "py": 1,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 5,
+              "py": 15.5
+            },
+            {
+              "typ": 1,
+              "px": 4,
+              "py": 15.5
+            },
+            {
+              "typ": 1,
+              "px": 4,
+              "py": 1
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 4,
+              "py": -15.5
+            },
+            {
+              "typ": 1,
+              "px": 5,
+              "py": -15.5
+            },
+            {
+              "typ": 1,
+              "px": 5,
+              "py": -1
+            },
+            {
+              "typ": 2,
+              "px": 4,
+              "py": -1,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 4,
+              "py": -15.5
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 10,
+              "py": 1
+            },
+            {
+              "typ": 2,
+              "px": 11,
+              "py": 1,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 11,
+              "py": 15.5
+            },
+            {
+              "typ": 1,
+              "px": 10,
+              "py": 15.5
+            },
+            {
+              "typ": 1,
+              "px": 10,
+              "py": 1
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 10,
+              "py": -15.5
+            },
+            {
+              "typ": 1,
+              "px": 11,
+              "py": -15.5
+            },
+            {
+              "typ": 1,
+              "px": 11,
+              "py": -1
+            },
+            {
+              "typ": 2,
+              "px": 10,
+              "py": -1,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 10,
+              "py": -15.5
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 16,
+              "py": 1
+            },
+            {
+              "typ": 2,
+              "px": 17,
+              "py": 1,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 17,
+              "py": 15.5
+            },
+            {
+              "typ": 1,
+              "px": 16,
+              "py": 15.5
+            },
+            {
+              "typ": 1,
+              "px": 16,
+              "py": 1
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 16,
+              "py": -15.5
+            },
+            {
+              "typ": 1,
+              "px": 17,
+              "py": -15.5
+            },
+            {
+              "typ": 1,
+              "px": 17,
+              "py": -1
+            },
+            {
+              "typ": 2,
+              "px": 16,
+              "py": -1,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 16,
+              "py": -15.5
+            }
+          ]
+        }
+      ]
+    ],
+    "faceGroove2": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 7,
+              "py": 1
+            },
+            {
+              "typ": 2,
+              "px": 8,
+              "py": 1,
+              "radius": 0.5000000000000009,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 8,
+              "py": 15.5
+            },
+            {
+              "typ": 1,
+              "px": 7,
+              "py": 15.5
+            },
+            {
+              "typ": 1,
+              "px": 7,
+              "py": 1
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 7,
+              "py": -15.5
+            },
+            {
+              "typ": 1,
+              "px": 8,
+              "py": -15.5
+            },
+            {
+              "typ": 1,
+              "px": 8,
+              "py": -1
+            },
+            {
+              "typ": 2,
+              "px": 7,
+              "py": -1,
+              "radius": 0.4999999999999991,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 7,
+              "py": -15.5
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 13,
+              "py": 1
+            },
+            {
+              "typ": 2,
+              "px": 14,
+              "py": 1,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 14,
+              "py": 15.5
+            },
+            {
+              "typ": 1,
+              "px": 13,
+              "py": 15.5
+            },
+            {
+              "typ": 1,
+              "px": 13,
+              "py": 1
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 13,
+              "py": -15.5
+            },
+            {
+              "typ": 1,
+              "px": 14,
+              "py": -15.5
+            },
+            {
+              "typ": 1,
+              "px": 14,
+              "py": -1
+            },
+            {
+              "typ": 2,
+              "px": 13,
+              "py": -1,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 13,
+              "py": -15.5
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 19,
+              "py": 1
+            },
+            {
+              "typ": 2,
+              "px": 20,
+              "py": 1,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 15.5
+            },
+            {
+              "typ": 1,
+              "px": 19,
+              "py": 15.5
+            },
+            {
+              "typ": 1,
+              "px": 19,
+              "py": 1
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 19,
+              "py": -15.5
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": -15.5
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": -1
+            },
+            {
+              "typ": 2,
+              "px": 19,
+              "py": -1,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 19,
+              "py": -15.5
+            }
+          ]
+        }
+      ]
+    ],
+    "faceLeft": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 15
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 8.827271945972475,
+              "py": -1.3720834959510154e-15
+            },
+            {
+              "typ": 1,
+              "px": 10.971691914945493,
+              "py": 1.5042435647288155e-16
+            },
+            {
+              "typ": 2,
+              "px": 11.950914725567259,
+              "py": 1.2027872953565122,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 11.44569170777731,
+              "py": 3.642416970387811
+            },
+            {
+              "typ": 2,
+              "px": 10.069321006520765,
+              "py": 4.35738430071528,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 8.101269660586677,
+              "py": 3.5057324334025437
+            },
+            {
+              "typ": 2,
+              "px": 6.877041195677335,
+              "py": 3.8614036812343944,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 6.121850059286896,
+              "py": 4.97263369333623
+            },
+            {
+              "typ": 2,
+              "px": 6.241823852374909,
+              "py": 6.2418238523749086,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 7.758157754147577,
+              "py": 7.758157754147575
+            },
+            {
+              "typ": 2,
+              "px": 7.600073790959161,
+              "py": 9.301071896702393,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 5.517748482269791,
+              "py": 10.668903961610152
+            },
+            {
+              "typ": 2,
+              "px": 4.038949178383408,
+              "py": 10.20122115292656,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 3.2495355365371252,
+              "py": 8.207389889906235
+            },
+            {
+              "typ": 2,
+              "px": 2.132377736063149,
+              "py": 7.593227191862224,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 0.8126186854142756,
+              "py": 7.844984695243787
+            },
+            {
+              "typ": 2,
+              "px": 5.40514516691921e-16,
+              "py": 8.827271945972475,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 5.495075422441767e-16,
+              "py": 10.971691914945493
+            },
+            {
+              "typ": 2,
+              "px": -1.2027872953565115,
+              "py": 11.950914725567259,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -3.642416970387809,
+              "py": 11.44569170777731
+            },
+            {
+              "typ": 2,
+              "px": -4.357384300715278,
+              "py": 10.069321006520765,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -3.505732433402543,
+              "py": 8.101269660586679
+            },
+            {
+              "typ": 2,
+              "px": -3.8614036812343935,
+              "py": 6.877041195677336,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -4.97263369333623,
+              "py": 6.121850059286896
+            },
+            {
+              "typ": 2,
+              "px": -6.2418238523749086,
+              "py": 6.241823852374909,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -7.758157754147575,
+              "py": 7.758157754147577
+            },
+            {
+              "typ": 2,
+              "px": -9.301071896702393,
+              "py": 7.600073790959161,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -10.668903961610152,
+              "py": 5.517748482269792
+            },
+            {
+              "typ": 2,
+              "px": -10.20122115292656,
+              "py": 4.038949178383409,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -8.207389889906235,
+              "py": 3.249535536537126
+            },
+            {
+              "typ": 2,
+              "px": -7.5932271918622245,
+              "py": 2.132377736063149,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -7.844984695243787,
+              "py": 0.8126186854142766
+            },
+            {
+              "typ": 2,
+              "px": -8.827271945972475,
+              "py": 1.081029033383842e-15,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -10.971691914945493,
+              "py": 1.3436447384868893e-15
+            },
+            {
+              "typ": 2,
+              "px": -11.950914725567259,
+              "py": -1.2027872953565106,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -11.44569170777731,
+              "py": -3.642416970387808
+            },
+            {
+              "typ": 2,
+              "px": -10.069321006520765,
+              "py": -4.357384300715277,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -8.101269660586677,
+              "py": -3.5057324334025415
+            },
+            {
+              "typ": 2,
+              "px": -6.877041195677336,
+              "py": -3.8614036812343926,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -6.121850059286896,
+              "py": -4.97263369333623
+            },
+            {
+              "typ": 2,
+              "px": -6.241823852374909,
+              "py": -6.241823852374908,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -7.758157754147577,
+              "py": -7.758157754147575
+            },
+            {
+              "typ": 2,
+              "px": -7.600073790959161,
+              "py": -9.301071896702393,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -5.517748482269788,
+              "py": -10.668903961610154
+            },
+            {
+              "typ": 2,
+              "px": -4.0389491783834055,
+              "py": -10.20122115292656,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -3.249535536537123,
+              "py": -8.207389889906235
+            },
+            {
+              "typ": 2,
+              "px": -2.132377736063147,
+              "py": -7.5932271918622245,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -0.8126186854142778,
+              "py": -7.844984695243787
+            },
+            {
+              "typ": 2,
+              "px": -1.7863029067618847e-15,
+              "py": -8.827271945972477,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -2.1658914642032153e-15,
+              "py": -10.971691914945493
+            },
+            {
+              "typ": 2,
+              "px": 1.20278729535651,
+              "py": -11.950914725567259,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 3.6424169703878118,
+              "py": -11.445691707777309
+            },
+            {
+              "typ": 2,
+              "px": 4.357384300715281,
+              "py": -10.069321006520761,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 3.505732433402545,
+              "py": -8.101269660586677
+            },
+            {
+              "typ": 2,
+              "px": 3.8614036812343957,
+              "py": -6.877041195677334,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 4.972633693336229,
+              "py": -6.121850059286896
+            },
+            {
+              "typ": 2,
+              "px": 6.241823852374908,
+              "py": -6.24182385237491,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 7.7581577541475735,
+              "py": -7.758157754147577
+            },
+            {
+              "typ": 2,
+              "px": 9.30107189670239,
+              "py": -7.600073790959161,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 10.668903961610154,
+              "py": -5.5177484822697895
+            },
+            {
+              "typ": 2,
+              "px": 10.20122115292656,
+              "py": -4.0389491783834055,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 8.207389889906235,
+              "py": -3.2495355365371235
+            },
+            {
+              "typ": 2,
+              "px": 7.5932271918622245,
+              "py": -2.1323777360631473,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 7.844984695243787,
+              "py": -0.8126186854142767
+            },
+            {
+              "typ": 2,
+              "px": 8.827271945972475,
+              "py": -1.3720834959510154e-15,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            }
+          ]
+        }
+      ]
+    ],
+    "faceRight": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 15
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 8.827271945972475,
+              "py": -1.3720834959510154e-15
+            },
+            {
+              "typ": 1,
+              "px": 10.971691914945493,
+              "py": 1.5042435647288155e-16
+            },
+            {
+              "typ": 2,
+              "px": 11.950914725567259,
+              "py": 1.2027872953565122,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 11.44569170777731,
+              "py": 3.642416970387811
+            },
+            {
+              "typ": 2,
+              "px": 10.069321006520765,
+              "py": 4.35738430071528,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 8.101269660586677,
+              "py": 3.5057324334025437
+            },
+            {
+              "typ": 2,
+              "px": 6.877041195677335,
+              "py": 3.8614036812343944,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 6.121850059286896,
+              "py": 4.97263369333623
+            },
+            {
+              "typ": 2,
+              "px": 6.241823852374909,
+              "py": 6.2418238523749086,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 7.758157754147577,
+              "py": 7.758157754147575
+            },
+            {
+              "typ": 2,
+              "px": 7.600073790959161,
+              "py": 9.301071896702393,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 5.517748482269791,
+              "py": 10.668903961610152
+            },
+            {
+              "typ": 2,
+              "px": 4.038949178383408,
+              "py": 10.20122115292656,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 3.2495355365371252,
+              "py": 8.207389889906235
+            },
+            {
+              "typ": 2,
+              "px": 2.132377736063149,
+              "py": 7.593227191862224,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 0.8126186854142756,
+              "py": 7.844984695243787
+            },
+            {
+              "typ": 2,
+              "px": 5.40514516691921e-16,
+              "py": 8.827271945972475,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 5.495075422441767e-16,
+              "py": 10.971691914945493
+            },
+            {
+              "typ": 2,
+              "px": -1.2027872953565115,
+              "py": 11.950914725567259,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -3.642416970387809,
+              "py": 11.44569170777731
+            },
+            {
+              "typ": 2,
+              "px": -4.357384300715278,
+              "py": 10.069321006520765,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -3.505732433402543,
+              "py": 8.101269660586679
+            },
+            {
+              "typ": 2,
+              "px": -3.8614036812343935,
+              "py": 6.877041195677336,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -4.97263369333623,
+              "py": 6.121850059286896
+            },
+            {
+              "typ": 2,
+              "px": -6.2418238523749086,
+              "py": 6.241823852374909,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -7.758157754147575,
+              "py": 7.758157754147577
+            },
+            {
+              "typ": 2,
+              "px": -9.301071896702393,
+              "py": 7.600073790959161,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -10.668903961610152,
+              "py": 5.517748482269792
+            },
+            {
+              "typ": 2,
+              "px": -10.20122115292656,
+              "py": 4.038949178383409,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -8.207389889906235,
+              "py": 3.249535536537126
+            },
+            {
+              "typ": 2,
+              "px": -7.5932271918622245,
+              "py": 2.132377736063149,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -7.844984695243787,
+              "py": 0.8126186854142766
+            },
+            {
+              "typ": 2,
+              "px": -8.827271945972475,
+              "py": 1.081029033383842e-15,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -10.971691914945493,
+              "py": 1.3436447384868893e-15
+            },
+            {
+              "typ": 2,
+              "px": -11.950914725567259,
+              "py": -1.2027872953565106,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -11.44569170777731,
+              "py": -3.642416970387808
+            },
+            {
+              "typ": 2,
+              "px": -10.069321006520765,
+              "py": -4.357384300715277,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -8.101269660586677,
+              "py": -3.5057324334025415
+            },
+            {
+              "typ": 2,
+              "px": -6.877041195677336,
+              "py": -3.8614036812343926,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -6.121850059286896,
+              "py": -4.97263369333623
+            },
+            {
+              "typ": 2,
+              "px": -6.241823852374909,
+              "py": -6.241823852374908,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -7.758157754147577,
+              "py": -7.758157754147575
+            },
+            {
+              "typ": 2,
+              "px": -7.600073790959161,
+              "py": -9.301071896702393,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -5.517748482269788,
+              "py": -10.668903961610154
+            },
+            {
+              "typ": 2,
+              "px": -4.0389491783834055,
+              "py": -10.20122115292656,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -3.249535536537123,
+              "py": -8.207389889906235
+            },
+            {
+              "typ": 2,
+              "px": -2.132377736063147,
+              "py": -7.5932271918622245,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -0.8126186854142778,
+              "py": -7.844984695243787
+            },
+            {
+              "typ": 2,
+              "px": -1.7863029067618847e-15,
+              "py": -8.827271945972477,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -2.1658914642032153e-15,
+              "py": -10.971691914945493
+            },
+            {
+              "typ": 2,
+              "px": 1.20278729535651,
+              "py": -11.950914725567259,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 3.6424169703878118,
+              "py": -11.445691707777309
+            },
+            {
+              "typ": 2,
+              "px": 4.357384300715281,
+              "py": -10.069321006520761,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 3.505732433402545,
+              "py": -8.101269660586677
+            },
+            {
+              "typ": 2,
+              "px": 3.8614036812343957,
+              "py": -6.877041195677334,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 4.972633693336229,
+              "py": -6.121850059286896
+            },
+            {
+              "typ": 2,
+              "px": 6.241823852374908,
+              "py": -6.24182385237491,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 7.7581577541475735,
+              "py": -7.758157754147577
+            },
+            {
+              "typ": 2,
+              "px": 9.30107189670239,
+              "py": -7.600073790959161,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 10.668903961610154,
+              "py": -5.5177484822697895
+            },
+            {
+              "typ": 2,
+              "px": 10.20122115292656,
+              "py": -4.0389491783834055,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 8.207389889906235,
+              "py": -3.2495355365371235
+            },
+            {
+              "typ": 2,
+              "px": 7.5932271918622245,
+              "py": -2.1323777360631473,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 7.844984695243787,
+              "py": -0.8126186854142767
+            },
+            {
+              "typ": 2,
+              "px": 8.827271945972475,
+              "py": -1.3720834959510154e-15,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            }
+          ]
+        }
+      ]
+    ],
+    "faceW1b": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 15
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_springWorm_tube",
+        "face": "springWorm_faceTube",
+        "extrudeMethod": 0,
+        "length": 20,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "outName": "subpax_springWorm_left",
+        "face": "springWorm_faceLeft",
+        "extrudeMethod": 0,
+        "length": 2,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_springWorm_leftB",
+        "face": "springWorm_faceW1b",
+        "extrudeMethod": 0,
+        "length": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "outName": "subpax_springWorm_rightB",
+        "face": "springWorm_faceW1b",
+        "extrudeMethod": 0,
+        "length": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          22
+        ]
+      },
+      {
+        "outName": "subpax_springWorm_right",
+        "face": "springWorm_faceRight",
+        "extrudeMethod": 0,
+        "length": 2,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          22
+        ]
+      },
+      {
+        "outName": "subpax_springWorm_groove1",
+        "face": "springWorm_faceGroove1",
+        "extrudeMethod": 0,
+        "length": 36,
+        "rotate": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "translate": [
+          18,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_springWorm_groove2",
+        "face": "springWorm_faceGroove2",
+        "extrudeMethod": 0,
+        "length": 36,
+        "rotate": [
+          0,
+          -1.5707963267948966,
+          -1.5707963267948966
+        ],
+        "translate": [
+          0,
+          -18,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "ipax_springWorm_plus",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_springWorm_tube",
+          "subpax_springWorm_left",
+          "subpax_springWorm_right"
+        ]
+      },
+      {
+        "outName": "ipax_springWorm_moins",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_springWorm_groove1",
+          "subpax_springWorm_groove2"
+        ]
+      },
+      {
+        "outName": "pax_springWorm",
+        "boolMethod": 3,
+        "inList": [
+          "ipax_springWorm_plus",
+          "ipax_springWorm_moins"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "springWorm simTime: 0\nDint 26.00 mm\nTotal length 24.00 mm\nspringWorm drawn successfully!\n"
+}

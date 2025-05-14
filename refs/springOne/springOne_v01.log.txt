@@ -1,0 +1,4 @@
+springOne simTime: 0
+Bearing holder wall: Hwall 35.00, Hfoot 2.50 mm
+spring: sNy 4, sRc 0.45 mm
+springOne drawn successfully!

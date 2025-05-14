@@ -1,0 +1,4 @@
+springWorm simTime: 0
+Dint 26.00 mm
+Total length 24.00 mm
+springWorm drawn successfully!
