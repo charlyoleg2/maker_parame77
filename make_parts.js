@@ -20,6 +20,8 @@ const c_Parts = {
 	springTorqueC_A: 'springTorqueC_A_v01',
 	springTorqueC_B: 'springTorqueC_B_v01',
 	springTorqueC_C: 'springTorqueC_C_v01',
+	springWorm: 'springWorm_v01',
+	springOne: 'springOne_v01',
 };
 
 const c_svgdxf = {
@@ -38,6 +40,8 @@ const c_svgdxf = {
 	springTorqueC_A: ['faceProfile'],
 	springTorqueC_B: ['faceProfile'],
 	springTorqueC_C: ['faceProfile'],
+	springWorm: ['faceTube', 'faceGroove1', 'faceGroove2', 'faceLeft', 'faceRight', 'faceW1b'],
+	springOne: ['faceWallB', 'SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01'],
 };
 
 function inferDesignName(instanceName) {
