@@ -1,0 +1,8 @@
+springSide simTime: 0
+Bearing holder wall: Hwall 35.00, Hfoot 2.50 mm
+Width of one unit interior: Lii 32.72, Li 31.07 mm
+Width of one unit exterior: Lee 50.12, Le 48.46 mm
+Ratio R2/Li 96.57 %
+Width of bottom: W1 17.00, D3 4.25 mm
+spring: sNy 4, sRc 0.45 mm
+springSide drawn successfully!

@@ -1,0 +1,7 @@
+house simTime: 0
+HAtotal 16.00 m
+HBtotal 17.00 m
+HCtotal 13.00 m
+HDtotal 13.00 m
+HEtotal 16.00 m
+house drawn successfully!

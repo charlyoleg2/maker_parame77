@@ -1,0 +1,30 @@
+{
+  "lastModif": "20250518_210309",
+  "partName": "springSide",
+  "pVal": {
+    "D5": 100,
+    "N5": 8,
+    "W2": 20,
+    "One unit": 0,
+    "D1": 16,
+    "H1": 5,
+    "H2": 15,
+    "R2": 15,
+    "Spring zone": 0,
+    "spring": 1,
+    "E1": 2,
+    "E2": 2,
+    "smEy": 1,
+    "shEy": 1,
+    "shPr": 90,
+    "sNx": 2,
+    "smEx": 1,
+    "smExS": 0.5,
+    "Folding": 0,
+    "Th": 1,
+    "Jradius": 2,
+    "Jneutral": 50,
+    "Jmark": 1
+  },
+  "comment": ""
+}

@@ -1,0 +1,868 @@
+{
+  "partName": "house",
+  "pDef": {
+    "partName": "house",
+    "params": [
+      {
+        "name": "WA",
+        "unit": "cm",
+        "init": 1000,
+        "min": 100,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "WB",
+        "unit": "cm",
+        "init": 800,
+        "min": 100,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "WC",
+        "unit": "cm",
+        "init": 800,
+        "min": 100,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "WD",
+        "unit": "cm",
+        "init": 500,
+        "min": 100,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "WE",
+        "unit": "cm",
+        "init": 400,
+        "min": 100,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Heights",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "HA1",
+        "unit": "cm",
+        "init": 400,
+        "min": 200,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "HA2",
+        "unit": "cm",
+        "init": 1200,
+        "min": 200,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "HB1",
+        "unit": "cm",
+        "init": 600,
+        "min": 200,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "HB2",
+        "unit": "cm",
+        "init": 1100,
+        "min": 200,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "HC1",
+        "unit": "cm",
+        "init": 700,
+        "min": 200,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "HC2",
+        "unit": "cm",
+        "init": 600,
+        "min": 200,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "HD1",
+        "unit": "cm",
+        "init": 700,
+        "min": 200,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "HD2",
+        "unit": "cm",
+        "init": 600,
+        "min": 200,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "HE1",
+        "unit": "cm",
+        "init": 1000,
+        "min": 200,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "HE2",
+        "unit": "cm",
+        "init": 600,
+        "min": 200,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L-Lengths",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "L1",
+        "unit": "cm",
+        "init": 1200,
+        "min": 200,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L2",
+        "unit": "cm",
+        "init": 200,
+        "min": 200,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L3",
+        "unit": "cm",
+        "init": 1500,
+        "min": 200,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S1",
+        "unit": "cm",
+        "init": 200,
+        "min": 50,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S2",
+        "unit": "cm",
+        "init": 300,
+        "min": 50,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S3",
+        "unit": "cm",
+        "init": 100,
+        "min": 50,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Ht",
+        "unit": "cm",
+        "init": 400,
+        "min": 50,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "M-Lengths",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "M1",
+        "unit": "cm",
+        "init": 200,
+        "min": 50,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "M2",
+        "unit": "cm",
+        "init": 400,
+        "min": 50,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "M3",
+        "unit": "cm",
+        "init": 800,
+        "min": 50,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "M4",
+        "unit": "cm",
+        "init": 100,
+        "min": 50,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Nest",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "AE1",
+        "unit": "cm",
+        "init": 400,
+        "min": 50,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "AE2",
+        "unit": "cm",
+        "init": 300,
+        "min": 50,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "BE1",
+        "unit": "cm",
+        "init": 400,
+        "min": 50,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "BE2",
+        "unit": "cm",
+        "init": 400,
+        "min": 50,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "WA": "house_top.svg",
+      "WB": "house_top.svg",
+      "WC": "house_top.svg",
+      "WD": "house_top.svg",
+      "WE": "house_top.svg",
+      "HA1": "house_pignon.svg",
+      "HA2": "house_pignon.svg",
+      "HB1": "house_pignon.svg",
+      "HB2": "house_pignon.svg",
+      "HC1": "house_pignon.svg",
+      "HC2": "house_pignon.svg",
+      "HD1": "house_pignon.svg",
+      "HD2": "house_pignon.svg",
+      "HE1": "house_pignon.svg",
+      "HE2": "house_pignon.svg",
+      "L1": "house_top.svg",
+      "L2": "house_top.svg",
+      "L3": "house_top.svg",
+      "S1": "house_top.svg",
+      "S2": "house_top.svg",
+      "S3": "house_top.svg",
+      "Ht": "house_top.svg",
+      "M1": "house_top.svg",
+      "M2": "house_top.svg",
+      "M3": "house_top.svg",
+      "M4": "house_top.svg",
+      "AE1": "house_top.svg",
+      "AE2": "house_top.svg",
+      "BE1": "house_top.svg",
+      "BE2": "house_top.svg"
+    },
+    "sim": {
+      "tMax": 180,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "WA": 1000,
+    "WB": 800,
+    "WC": 800,
+    "WD": 500,
+    "WE": 400,
+    "Heights": 0,
+    "HA1": 400,
+    "HA2": 1200,
+    "HB1": 600,
+    "HB2": 1100,
+    "HC1": 700,
+    "HC2": 600,
+    "HD1": 700,
+    "HD2": 600,
+    "HE1": 1000,
+    "HE2": 600,
+    "L-Lengths": 0,
+    "L1": 1200,
+    "L2": 200,
+    "L3": 1500,
+    "S1": 200,
+    "S2": 300,
+    "S3": 100,
+    "Ht": 400,
+    "M-Lengths": 0,
+    "M1": 200,
+    "M2": 400,
+    "M3": 800,
+    "M4": 100,
+    "Nest": 0,
+    "AE1": 400,
+    "AE2": 300,
+    "BE1": 400,
+    "BE2": 400
+  },
+  "figures": {
+    "facePA": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -500,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 500,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 500,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 1600
+            },
+            {
+              "typ": 1,
+              "px": -500,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": -500,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "facePB": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -400,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 400,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 400,
+              "py": 600
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 1700
+            },
+            {
+              "typ": 1,
+              "px": -400,
+              "py": 600
+            },
+            {
+              "typ": 1,
+              "px": -400,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "facePC": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -400,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 400,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 400,
+              "py": 700
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 1300
+            },
+            {
+              "typ": 1,
+              "px": -400,
+              "py": 700
+            },
+            {
+              "typ": 1,
+              "px": -400,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "facePD": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -250,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 250,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 250,
+              "py": 700
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 1300
+            },
+            {
+              "typ": 1,
+              "px": -250,
+              "py": 700
+            },
+            {
+              "typ": 1,
+              "px": -250,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "facePE": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -200,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 200,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 200,
+              "py": 1000
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 1600
+            },
+            {
+              "typ": 1,
+              "px": -200,
+              "py": 1000
+            },
+            {
+              "typ": 1,
+              "px": -200,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "faceTerrasse": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -2400,
+              "py": -250
+            },
+            {
+              "typ": 1,
+              "px": -2400,
+              "py": 250
+            },
+            {
+              "typ": 1,
+              "px": -2600,
+              "py": 250.0000000000001
+            },
+            {
+              "typ": 1,
+              "px": -2600,
+              "py": -249.99999999999997
+            },
+            {
+              "typ": 1,
+              "px": -2400,
+              "py": -250
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -400,
+              "py": -500.00000000000017
+            },
+            {
+              "typ": 1,
+              "px": -1900,
+              "py": -499.9999999999999
+            },
+            {
+              "typ": 1,
+              "px": -1900,
+              "py": -799.9999999999999
+            },
+            {
+              "typ": 1,
+              "px": -400.0000000000001,
+              "py": -800.0000000000002
+            },
+            {
+              "typ": 1,
+              "px": -400,
+              "py": -500.00000000000017
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_house_pAw",
+        "face": "house_facePA",
+        "extrudeMethod": 0,
+        "length": 2400,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          4.71238898038469
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_house_pAe",
+        "face": "house_facePA",
+        "extrudeMethod": 0,
+        "length": 600,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          1.5707963267948966
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_house_pBn",
+        "face": "house_facePB",
+        "extrudeMethod": 0,
+        "length": 900,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          3.141592653589793
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_house_pBs",
+        "face": "house_facePB",
+        "extrudeMethod": 0,
+        "length": 1400,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_house_pCn",
+        "face": "house_facePC",
+        "extrudeMethod": 0,
+        "length": 700,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          3.141592653589793
+        ],
+        "translate": [
+          -800,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_house_pD1s",
+        "face": "house_facePD",
+        "extrudeMethod": 0,
+        "length": 500,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          -1550,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_house_pD2e",
+        "face": "house_facePD",
+        "extrudeMethod": 0,
+        "length": 400,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          1.5707963267948966
+        ],
+        "translate": [
+          0,
+          -1050,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_house_pE1s",
+        "face": "house_facePE",
+        "extrudeMethod": 0,
+        "length": 400,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          -600,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_house_pE2w",
+        "face": "house_facePE",
+        "extrudeMethod": 0,
+        "length": 300,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          4.71238898038469
+        ],
+        "translate": [
+          0,
+          -600,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_house_terras",
+        "face": "house_faceTerrasse",
+        "extrudeMethod": 0,
+        "length": 400,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_house",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_house_pAw",
+          "subpax_house_pAe",
+          "subpax_house_pBn",
+          "subpax_house_pBs",
+          "subpax_house_pCn",
+          "subpax_house_pD1s",
+          "subpax_house_pD2e",
+          "subpax_house_pE1s",
+          "subpax_house_pE2w",
+          "subpax_house_terras"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "house simTime: 0\nHAtotal 16.00 m\nHBtotal 17.00 m\nHCtotal 13.00 m\nHDtotal 13.00 m\nHEtotal 16.00 m\nhouse drawn successfully!\n"
+}

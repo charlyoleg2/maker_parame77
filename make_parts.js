@@ -8,6 +8,7 @@ const c_Parts = {
 	door1arc_A: 'door1arc_A_v01',
 	door1arc_B: 'door1arc_B_v01',
 	stoneTower: 'stoneTower_v01',
+	house: 'house_v01',
 	springTorqueA_A1: 'springTorqueA_A1_v01',
 	springTorqueA_B1: 'springTorqueA_B1_v01',
 	springTorqueA_B2: 'springTorqueA_B2_v01',
@@ -22,12 +23,15 @@ const c_Parts = {
 	springTorqueC_C: 'springTorqueC_C_v01',
 	springWorm: 'springWorm_v01',
 	springOne: 'springOne_v01',
+	springSide: 'springSide_v01',
+	springInt: 'springInt_v01',
 };
 
 const c_svgdxf = {
 	door1arc_A: ['faceDoor'],
 	door1arc_B: ['faceDoor'],
 	stoneTower: ['faceHplan', 'faceDoor', 'faceWin1', 'faceWin2', 'faceWin3', 'faceWin4', 'faceCorri', 'faceFS', 'faceTopExt', 'faceTCFront', 'faceTCMid', 'faceTCRear', 'faceFloors', 'faceStairsL1', 'faceStairsL2', 'faceStairsW1', 'faceStairsW2'],
+	house: ['facePA', 'facePB', 'facePC', 'facePD', 'facePE', 'faceTerrasse'],
 	springTorqueA_A1: ['faceProfile'],
 	springTorqueA_B1: ['faceProfile'],
 	springTorqueA_B2: ['faceProfile'],
@@ -42,6 +46,8 @@ const c_svgdxf = {
 	springTorqueC_C: ['faceProfile'],
 	springWorm: ['faceTube', 'faceGroove1', 'faceGroove2', 'faceLeft', 'faceRight', 'faceW1b'],
 	springOne: ['faceWallB', 'SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01'],
+	springSide: ['SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01'],
+	springInt: ['SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01'],
 };
 
 function inferDesignName(instanceName) {
