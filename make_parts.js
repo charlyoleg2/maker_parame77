@@ -52,8 +52,8 @@ const c_svgdxf = {
 	springSide: ['SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01'],
 	springInt: ['SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01'],
 	heliostat: ['faceBottomPole', 'faceDoor', 'faceBottomDisc', 'faceTopPole', 'faceHorizPole', 'faceHorizPoleInt', 'faceDiag3', 'faceDiagE', 'faceDiagI', 'faceCleanDiag', 'faceHand'],
-	heliostat_top: ['faceBottomPole', 'faceDoor', 'faceBottomDisc', 'faceTopPole', 'faceHorizPole', 'faceHorizPoleInt', 'faceDiag3', 'faceDiagE', 'faceDiagI', 'faceCleanDiag', 'faceHand'],
-	heliostat_bottom: ['faceBottomPole', 'faceDoor', 'faceBottomDisc', 'faceTopPole', 'faceHorizPole', 'faceHorizPoleInt', 'faceDiag3', 'faceDiagE', 'faceDiagI', 'faceCleanDiag', 'faceHand'],
+	heliostat_A: ['faceBottomPole', 'faceDoor', 'faceBottomDisc', 'faceTopPole', 'faceHorizPole', 'faceHorizPoleInt', 'faceDiag3', 'faceDiagE', 'faceDiagI', 'faceCleanDiag', 'faceHand'],
+	heliostat_B: ['faceBottomPole', 'faceDoor', 'faceBottomDisc', 'faceTopPole', 'faceHorizPole', 'faceHorizPoleInt', 'faceDiag3', 'faceDiagE', 'faceDiagI', 'faceCleanDiag', 'faceHand'],
 };
 
 function inferDesignName(instanceName) {
