@@ -26,8 +26,8 @@ const c_Parts = {
 	springSide: 'springSide_v01',
 	springInt: 'springInt_v01',
 	heliostat: 'heliostat_v01',
-	heliostat_top: 'heliostat_top_v01',
-	heliostat_bottom: 'heliostat_bottom_v01',
+	heliostat_A: 'heliostat_A_v01',
+	heliostat_B: 'heliostat_B_v01',
 };
 
 const c_svgdxf = {
