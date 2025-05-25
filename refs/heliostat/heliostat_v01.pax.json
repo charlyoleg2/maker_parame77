@@ -1,0 +1,1356 @@
+{
+  "partName": "heliostat",
+  "pDef": {
+    "partName": "heliostat",
+    "params": [
+      {
+        "name": "L1",
+        "unit": "mm",
+        "init": 4000,
+        "min": 1000,
+        "max": 20000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D1",
+        "unit": "mm",
+        "init": 1000,
+        "min": 100,
+        "max": 4000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D3",
+        "unit": "mm",
+        "init": 600,
+        "min": 100,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L9",
+        "unit": "mm",
+        "init": 8000,
+        "min": 1000,
+        "max": 20000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Bottom details",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "E1",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E2",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E3",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S1",
+        "unit": "mm",
+        "init": 100,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S3",
+        "unit": "mm",
+        "init": 100,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Fixation",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "N2",
+        "unit": "holes",
+        "init": 24,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D2",
+        "unit": "mm",
+        "init": 40,
+        "min": 1,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W1",
+        "unit": "mm",
+        "init": 20,
+        "min": 1,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Door",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "H1H",
+        "unit": "mm",
+        "init": 1500,
+        "min": 100,
+        "max": 3000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H1W",
+        "unit": "mm",
+        "init": 600,
+        "min": 100,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H1P",
+        "unit": "mm",
+        "init": 300,
+        "min": 100,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Junction",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "Z3",
+        "unit": "mm",
+        "init": 200,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Z4",
+        "unit": "mm",
+        "init": 200,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "gen3D",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 2,
+        "step": 1,
+        "dropdown": [
+          "Both",
+          "Top",
+          "Bottom"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "Top-trunk",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "L4",
+        "unit": "mm",
+        "init": 2000,
+        "min": 100,
+        "max": 20000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E4",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E5",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H6",
+        "unit": "mm",
+        "init": 600,
+        "min": 100,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E7",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D7",
+        "unit": "mm",
+        "init": 200,
+        "min": 10,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Top-branch",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "E6",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D6",
+        "unit": "mm",
+        "init": 400,
+        "min": 100,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W8",
+        "unit": "mm",
+        "init": 300,
+        "min": 100,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L8",
+        "unit": "mm",
+        "init": 2000,
+        "min": 100,
+        "max": 20000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H8",
+        "unit": "mm",
+        "init": 1000,
+        "min": 100,
+        "max": 3000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "G8",
+        "unit": "mm",
+        "init": 500,
+        "min": 100,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "F8",
+        "unit": "mm",
+        "init": 200,
+        "min": 10,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "a8",
+        "unit": "degre",
+        "init": 140,
+        "min": 30,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Top-diagonal",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "D4",
+        "unit": "mm",
+        "init": 300,
+        "min": 10,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "EE4",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "R4v",
+        "unit": "mm",
+        "init": 400,
+        "min": 10,
+        "max": 5000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "R4h",
+        "unit": "mm",
+        "init": 400,
+        "min": 10,
+        "max": 5000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "L1": "heliostat_bottom.svg",
+      "D1": "heliostat_bottom.svg",
+      "D3": "heliostat_bottom.svg",
+      "L9": "heliostat_junction.svg",
+      "E1": "heliostat_bottom.svg",
+      "E2": "heliostat_bottom.svg",
+      "E3": "heliostat_bottom.svg",
+      "S1": "heliostat_bottom.svg",
+      "S3": "heliostat_bottom.svg",
+      "N2": "heliostat_fixation.svg",
+      "D2": "heliostat_fixation.svg",
+      "W1": "heliostat_fixation.svg",
+      "H1H": "heliostat_bottom.svg",
+      "H1W": "heliostat_bottom.svg",
+      "H1P": "heliostat_bottom.svg",
+      "Z3": "heliostat_junction.svg",
+      "Z4": "heliostat_junction.svg",
+      "gen3D": "heliostat_junction.svg",
+      "L4": "heliostat_top.svg",
+      "E4": "heliostat_top.svg",
+      "E5": "heliostat_top.svg",
+      "E6": "heliostat_top.svg",
+      "D6": "heliostat_top.svg",
+      "H6": "heliostat_top.svg",
+      "E7": "heliostat_top.svg",
+      "D7": "heliostat_top.svg",
+      "W8": "heliostat_top.svg",
+      "L8": "heliostat_top.svg",
+      "H8": "heliostat_hand.svg",
+      "G8": "heliostat_hand.svg",
+      "F8": "heliostat_hand.svg",
+      "a8": "heliostat_hand.svg",
+      "D4": "heliostat_top.svg",
+      "EE4": "heliostat_top.svg",
+      "R4v": "heliostat_top.svg",
+      "R4h": "heliostat_top.svg"
+    },
+    "sim": {
+      "tMax": 180,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "L1": 4000,
+    "D1": 1000,
+    "D3": 600,
+    "L9": 8000,
+    "Bottom details": 0,
+    "E1": 10,
+    "E2": 10,
+    "E3": 10,
+    "S1": 100,
+    "S3": 100,
+    "Fixation": 0,
+    "N2": 24,
+    "D2": 40,
+    "W1": 20,
+    "Door": 0,
+    "H1H": 1500,
+    "H1W": 600,
+    "H1P": 300,
+    "Junction": 0,
+    "Z3": 200,
+    "Z4": 200,
+    "gen3D": 0,
+    "Top-trunk": 0,
+    "L4": 2000,
+    "E4": 10,
+    "E5": 10,
+    "H6": 600,
+    "E7": 10,
+    "D7": 200,
+    "Top-branch": 0,
+    "E6": 10,
+    "D6": 400,
+    "W8": 300,
+    "L8": 2000,
+    "H8": 1000,
+    "G8": 500,
+    "F8": 200,
+    "a8": 140,
+    "Top-diagonal": 0,
+    "D4": 300,
+    "EE4": 10,
+    "R4v": 400,
+    "R4h": 400
+  },
+  "figures": {
+    "faceBottomPole": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -500,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": -500,
+              "py": 10
+            },
+            {
+              "typ": 1,
+              "px": -300,
+              "py": 4000
+            },
+            {
+              "typ": 1,
+              "px": -190.48869827889126,
+              "py": 4000
+            },
+            {
+              "typ": 1,
+              "px": -190.48869827889126,
+              "py": 3990
+            },
+            {
+              "typ": 1,
+              "px": -290.48869827889126,
+              "py": 3990
+            },
+            {
+              "typ": 1,
+              "px": -489.9874451460592,
+              "py": 10
+            },
+            {
+              "typ": 1,
+              "px": -489.9874451460592,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": -500,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "faceDoor": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 300,
+              "py": 600
+            },
+            {
+              "typ": 1,
+              "px": 300,
+              "py": 1500
+            },
+            {
+              "typ": 2,
+              "px": -300,
+              "py": 1500,
+              "radius": 300,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -300,
+              "py": 600
+            },
+            {
+              "typ": 2,
+              "px": 300,
+              "py": 600,
+              "radius": 300,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        }
+      ]
+    ],
+    "faceBottomDisc": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 500
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 389.98744514605914
+        },
+        {
+          "circle": true,
+          "cx": 429.98744514605914,
+          "cy": 0,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": 415.33597824663264,
+          "cy": 111.28893995877554,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": 372.38005080485505,
+          "cy": 214.99372257302954,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": 304.04703828785705,
+          "cy": 304.04703828785705,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": 214.99372257302963,
+          "cy": 372.380050804855,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": 111.28893995877564,
+          "cy": 415.3359782466326,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": 2.632913741858347e-14,
+          "cy": 429.98744514605914,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": -111.2889399587755,
+          "cy": 415.33597824663264,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": -214.9937225730295,
+          "cy": 372.38005080485505,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": -304.04703828785705,
+          "cy": 304.04703828785705,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": -372.380050804855,
+          "cy": 214.99372257302971,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": -415.3359782466326,
+          "cy": 111.28893995877566,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": -429.98744514605914,
+          "cy": 5.265827483716694e-14,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": -415.33597824663264,
+          "cy": -111.28893995877537,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": -372.3800508048551,
+          "cy": -214.99372257302946,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": -304.0470382878572,
+          "cy": -304.0470382878569,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": -214.99372257302977,
+          "cy": -372.380050804855,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": -111.28893995877588,
+          "cy": -415.3359782466325,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": -7.898741225575041e-14,
+          "cy": -429.98744514605914,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": 111.28893995877536,
+          "cy": -415.33597824663264,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": 214.9937225730293,
+          "cy": -372.3800508048552,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": 304.047038287857,
+          "cy": -304.0470382878571,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": 372.38005080485493,
+          "cy": -214.99372257302977,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": 415.3359782466325,
+          "cy": -111.2889399587759,
+          "radius": 20
+        }
+      ]
+    ],
+    "faceTopPole": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -600.2381187637152,
+              "py": 2200
+            },
+            {
+              "typ": 1,
+              "px": -590.2255639097743,
+              "py": 2200
+            },
+            {
+              "typ": 1,
+              "px": -489.9749373433584,
+              "py": 4200
+            },
+            {
+              "typ": 1,
+              "px": -190.48869827889126,
+              "py": 4200
+            },
+            {
+              "typ": 1,
+              "px": -190.48869827889126,
+              "py": 4210
+            },
+            {
+              "typ": 1,
+              "px": -489.47368421052636,
+              "py": 4210
+            },
+            {
+              "typ": 1,
+              "px": -459.39849624060156,
+              "py": 4810
+            },
+            {
+              "typ": 1,
+              "px": -100,
+              "py": 4810
+            },
+            {
+              "typ": 1,
+              "px": -100,
+              "py": 4820
+            },
+            {
+              "typ": 1,
+              "px": -468.9097979617103,
+              "py": 4820
+            },
+            {
+              "typ": 1,
+              "px": -600.2381187637152,
+              "py": 2200
+            }
+          ]
+        }
+      ]
+    ],
+    "faceHorizPole": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 4510,
+          "radius": 200
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 4510,
+          "radius": 190
+        }
+      ]
+    ],
+    "faceHorizPoleInt": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 4510,
+          "radius": 190
+        }
+      ]
+    ],
+    "faceDiag3": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -4000,
+              "py": 4310
+            },
+            {
+              "typ": 1,
+              "px": 4000,
+              "py": 4310
+            },
+            {
+              "typ": 1,
+              "px": 4000,
+              "py": 4710
+            },
+            {
+              "typ": 1,
+              "px": -4000,
+              "py": 4710
+            },
+            {
+              "typ": 1,
+              "px": -4000,
+              "py": 4310
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -4000,
+              "py": 4320
+            },
+            {
+              "typ": 1,
+              "px": 4000,
+              "py": 4320
+            },
+            {
+              "typ": 1,
+              "px": 4000,
+              "py": 4700
+            },
+            {
+              "typ": 1,
+              "px": -4000,
+              "py": 4700
+            },
+            {
+              "typ": 1,
+              "px": -4000,
+              "py": 4320
+            }
+          ]
+        }
+      ]
+    ],
+    "faceDiagE": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 150
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 140
+        }
+      ]
+    ],
+    "faceDiagI": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 140
+        }
+      ]
+    ],
+    "faceCleanDiag": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -590.2255639097743,
+              "py": 2200
+            },
+            {
+              "typ": 1,
+              "px": -489.9749373433584,
+              "py": 4200
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 4200
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 1400
+            },
+            {
+              "typ": 1,
+              "px": -590.2255639097743,
+              "py": 1400
+            },
+            {
+              "typ": 1,
+              "px": -590.2255639097743,
+              "py": 2200
+            }
+          ]
+        }
+      ]
+    ],
+    "faceHand": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 422.86167935365876,
+              "py": 5356.090935503449
+            },
+            {
+              "typ": 1,
+              "px": 234.92315519647707,
+              "py": 5424.494964168583
+            },
+            {
+              "typ": 2,
+              "px": -234.92315519647707,
+              "py": 5424.494964168583,
+              "radius": 250.00000000000048,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -422.86167935365876,
+              "py": 5356.090935503449
+            },
+            {
+              "typ": 1,
+              "px": -200,
+              "py": 4510
+            },
+            {
+              "typ": 2,
+              "px": 200,
+              "py": 4510,
+              "radius": 200,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 422.86167935365876,
+              "py": 5356.090935503449
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_heliostat_bottomPole",
+        "face": "heliostat_faceBottomPole",
+        "extrudeMethod": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_heliostat_door",
+        "face": "heliostat_faceDoor",
+        "extrudeMethod": 0,
+        "length": 1000,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_heliostat_bottomDisc",
+        "face": "heliostat_faceBottomDisc",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_heliostat_topPole",
+        "face": "heliostat_faceTopPole",
+        "extrudeMethod": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_heliostat_horizPole",
+        "face": "heliostat_faceHorizPole",
+        "extrudeMethod": 0,
+        "length": 8000,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          4000,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_heliostat_horizPoleInt",
+        "face": "heliostat_faceHorizPoleInt",
+        "extrudeMethod": 0,
+        "length": 8000,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          4000,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_heliostat_diag1e",
+        "face": "heliostat_faceDiagE",
+        "extrudeMethod": 0,
+        "length": 4686.953167005703,
+        "rotate": [
+          1.0554255544760283,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          429.42475437455295,
+          2200
+        ]
+      },
+      {
+        "outName": "subpax_heliostat_diag1i",
+        "face": "heliostat_faceDiagI",
+        "extrudeMethod": 0,
+        "length": 4686.953167005703,
+        "rotate": [
+          1.0554255544760283,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          429.42475437455295,
+          2200
+        ]
+      },
+      {
+        "outName": "subpax_heliostat_diag2e",
+        "face": "heliostat_faceDiagE",
+        "extrudeMethod": 0,
+        "length": 4686.953167005703,
+        "rotate": [
+          -1.0554255544760283,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          -429.42475437455295,
+          2200
+        ]
+      },
+      {
+        "outName": "subpax_heliostat_diag2i",
+        "face": "heliostat_faceDiagI",
+        "extrudeMethod": 0,
+        "length": 4686.953167005703,
+        "rotate": [
+          -1.0554255544760283,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          -429.42475437455295,
+          2200
+        ]
+      },
+      {
+        "outName": "subpax_heliostat_cleanDiag",
+        "face": "heliostat_faceCleanDiag",
+        "extrudeMethod": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_heliostat_hand1",
+        "face": "heliostat_faceHand",
+        "extrudeMethod": 0,
+        "length": 300,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          -3700,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_heliostat_hand2",
+        "face": "heliostat_faceHand",
+        "extrudeMethod": 0,
+        "length": 300,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          -1000,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_heliostat_hand3",
+        "face": "heliostat_faceHand",
+        "extrudeMethod": 0,
+        "length": 300,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          1300,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_heliostat_hand4",
+        "face": "heliostat_faceHand",
+        "extrudeMethod": 0,
+        "length": 300,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          4000,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "ipax_heliostat_bottomPolePlus",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_heliostat_bottomDisc",
+          "subpax_heliostat_bottomPole"
+        ]
+      },
+      {
+        "outName": "ipax_heliostat_bottomPart",
+        "boolMethod": 3,
+        "inList": [
+          "ipax_heliostat_bottomPolePlus",
+          "subpax_heliostat_door"
+        ]
+      },
+      {
+        "outName": "ipax_heliostat_topPlus",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_heliostat_topPole",
+          "subpax_heliostat_horizPole",
+          "subpax_heliostat_diag1e",
+          "subpax_heliostat_diag2e",
+          "subpax_heliostat_hand1",
+          "subpax_heliostat_hand2",
+          "subpax_heliostat_hand3",
+          "subpax_heliostat_hand4"
+        ]
+      },
+      {
+        "outName": "ipax_heliostat_topMinus",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_heliostat_horizPoleInt",
+          "subpax_heliostat_diag1i",
+          "subpax_heliostat_diag2i",
+          "subpax_heliostat_cleanDiag"
+        ]
+      },
+      {
+        "outName": "ipax_heliostat_topPart",
+        "boolMethod": 3,
+        "inList": [
+          "ipax_heliostat_topPlus",
+          "ipax_heliostat_topMinus"
+        ]
+      },
+      {
+        "outName": "pax_heliostat",
+        "boolMethod": 2,
+        "inList": [
+          "ipax_heliostat_topPart",
+          "ipax_heliostat_bottomPart"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "heliostat simTime: 0\nCone inclination 87.13, diagonal 60.47 deg\nDiameters: D1 1000.00, D1b 1000.00, D3 600.00, D5 380.98 mm\nTopPole: posY4 2200.00, D4 1200.48 mm\nheliostat drawn successfully!\n"
+}

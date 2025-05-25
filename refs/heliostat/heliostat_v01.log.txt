@@ -1,0 +1,5 @@
+heliostat simTime: 0
+Cone inclination 87.13, diagonal 60.47 deg
+Diameters: D1 1000.00, D1b 1000.00, D3 600.00, D5 380.98 mm
+TopPole: posY4 2200.00, D4 1200.48 mm
+heliostat drawn successfully!
