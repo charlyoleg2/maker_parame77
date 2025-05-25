@@ -25,6 +25,9 @@ const c_Parts = {
 	springOne: 'springOne_v01',
 	springSide: 'springSide_v01',
 	springInt: 'springInt_v01',
+	heliostat: 'heliostat_v01',
+	heliostat_top: 'heliostat_top_v01',
+	heliostat_bottom: 'heliostat_bottom_v01',
 };
 
 const c_svgdxf = {
@@ -48,6 +51,9 @@ const c_svgdxf = {
 	springOne: ['faceWallB', 'SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01'],
 	springSide: ['SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01'],
 	springInt: ['SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01'],
+	heliostat: ['faceBottomPole', 'faceDoor', 'faceBottomDisc', 'faceTopPole', 'faceHorizPole', 'faceHorizPoleInt', 'faceDiag3', 'faceDiagE', 'faceDiagI', 'faceCleanDiag', 'faceHand'],
+	heliostat_top: ['faceBottomPole', 'faceDoor', 'faceBottomDisc', 'faceTopPole', 'faceHorizPole', 'faceHorizPoleInt', 'faceDiag3', 'faceDiagE', 'faceDiagI', 'faceCleanDiag', 'faceHand'],
+	heliostat_bottom: ['faceBottomPole', 'faceDoor', 'faceBottomDisc', 'faceTopPole', 'faceHorizPole', 'faceHorizPoleInt', 'faceDiag3', 'faceDiagE', 'faceDiagI', 'faceCleanDiag', 'faceHand'],
 };
 
 function inferDesignName(instanceName) {
