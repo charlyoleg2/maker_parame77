@@ -1,0 +1,6 @@
+capsule simTime: 0
+Platform surface: 9.00 m2, height: 2.91 m
+Lroof: 2600.00, L5: 1600.00 mm
+Ltotal: 5.60, Htotal: 2.00 m
+Batterie: LbatInt 2180.00, HbatInt: 290.00, WW1 1800.00 mm
+capsule drawn successfully!
