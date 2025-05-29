@@ -28,6 +28,8 @@ const c_Parts = {
 	heliostat: 'heliostat_v01',
 	heliostat_A: 'heliostat_A_v01',
 	heliostat_B: 'heliostat_B_v01',
+	capsule_A: 'capsule_A_v01',
+	capsule_B: 'capsule_B_v01',
 };
 
 const c_svgdxf = {
@@ -54,6 +56,8 @@ const c_svgdxf = {
 	heliostat: ['faceBottomPole', 'faceDoor', 'faceBottomDisc', 'faceTopPole', 'faceHorizPole', 'faceHorizPoleInt', 'faceDiag3', 'faceDiagE', 'faceDiagI', 'faceCleanDiag', 'faceHand'],
 	heliostat_A: ['faceBottomPole', 'faceDoor', 'faceBottomDisc', 'faceTopPole', 'faceHorizPole', 'faceHorizPoleInt', 'faceDiag3', 'faceDiagE', 'faceDiagI', 'faceCleanDiag', 'faceHand'],
 	heliostat_B: ['faceBottomPole', 'faceDoor', 'faceBottomDisc', 'faceTopPole', 'faceHorizPole', 'faceHorizPoleInt', 'faceDiag3', 'faceDiagE', 'faceDiagI', 'faceCleanDiag', 'faceHand'],
+	capsule_A: ['faceBody', 'faceWheels', 'faceFront', 'faceTop', 'faceTopInt', 'faceTopTop', 'faceTopLeg', 'faceWall'],
+	capsule_B: ['faceBody', 'faceWheels', 'faceFront', 'faceTop', 'faceTopInt', 'faceTopTop', 'faceTopLeg', 'faceWall'],
 };
 
 function inferDesignName(instanceName) {
