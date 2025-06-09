@@ -30,6 +30,9 @@ const c_Parts = {
 	heliostat_B: 'heliostat_B_v01',
 	capsule_A: 'capsule_A_v01',
 	capsule_B: 'capsule_B_v01',
+	rccar_A1: 'rccar_A1_v01',
+	rccar_A2: 'rccar_A2_v01',
+	rccar_A3: 'rccar_A3_v01',
 };
 
 const c_svgdxf = {
@@ -58,6 +61,9 @@ const c_svgdxf = {
 	heliostat_B: ['faceBottomPole', 'faceDoor', 'faceBottomDisc', 'faceTopPole', 'faceHorizPole', 'faceHorizPoleInt', 'faceDiag3', 'faceDiagE', 'faceDiagI', 'faceCleanDiag', 'faceHand'],
 	capsule_A: ['faceBody', 'faceWheels', 'faceFront', 'faceTop', 'faceTopInt', 'faceTopTop', 'faceTopLeg', 'faceWall'],
 	capsule_B: ['faceBody', 'faceWheels', 'faceFront', 'faceTop', 'faceTopInt', 'faceTopTop', 'faceTopLeg', 'faceWall'],
+	rccar_A1: ['facePlatform', 'faceTop', 'faceSide', 'faceTriangle', 'facePFfixation', 'faceBones', 'faceHandFixation', 'faceHandPlateR', 'faceHandPlateL', 'faceHandBackR', 'faceHandBackL', 'faceMotorBulkR', 'faceMotorBulkL', 'faceMFoot', 'faceWheel'],
+	rccar_A2: ['facePlatform', 'faceTop', 'faceSide', 'faceTriangle', 'facePFfixation', 'faceBones', 'faceHandFixation', 'faceHandPlateR', 'faceHandPlateL', 'faceHandBackR', 'faceHandBackL', 'faceMotorBulkR', 'faceMotorBulkL', 'faceMFoot', 'faceWheel'],
+	rccar_A3: ['facePlatform', 'faceTop', 'faceSide', 'faceTriangle', 'facePFfixation', 'faceBones', 'faceHandFixation', 'faceHandPlateR', 'faceHandPlateL', 'faceHandBackR', 'faceHandBackL', 'faceMotorBulkR', 'faceMotorBulkL', 'faceMFoot', 'faceWheel'],
 };
 
 function inferDesignName(instanceName) {
