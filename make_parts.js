@@ -33,6 +33,8 @@ const c_Parts = {
 	rccar_A1: 'rccar_A1_v01',
 	rccar_A2: 'rccar_A2_v01',
 	rccar_A3: 'rccar_A3_v01',
+	singleBone: 'singleBone_v01',
+	doubleBone: 'doubleBone_v01',
 };
 
 const c_svgdxf = {
@@ -64,6 +66,8 @@ const c_svgdxf = {
 	rccar_A1: ['facePlatform', 'faceTop', 'faceSide', 'faceTriangle', 'facePFfixation', 'faceBones', 'faceHandFixation', 'faceHandPlateR', 'faceHandPlateL', 'faceHandBackR', 'faceHandBackL', 'faceMotorBulkR', 'faceMotorBulkL', 'faceMFoot', 'faceWheel'],
 	rccar_A2: ['facePlatform', 'faceTop', 'faceSide', 'faceTriangle', 'facePFfixation', 'faceBones', 'faceHandFixation', 'faceHandPlateR', 'faceHandPlateL', 'faceHandBackR', 'faceHandBackL', 'faceMotorBulkR', 'faceMotorBulkL', 'faceMFoot', 'faceWheel'],
 	rccar_A3: ['facePlatform', 'faceTop', 'faceSide', 'faceTriangle', 'facePFfixation', 'faceBones', 'faceHandFixation', 'faceHandPlateR', 'faceHandPlateL', 'faceHandBackR', 'faceHandBackL', 'faceMotorBulkR', 'faceMotorBulkL', 'faceMFoot', 'faceWheel'],
+	singleBone: ['SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01'],
+	doubleBone: ['SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01'],
 };
 
 function inferDesignName(instanceName) {
