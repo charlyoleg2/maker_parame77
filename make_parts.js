@@ -66,7 +66,7 @@ const c_svgdxf = {
 	rccar_A1: ['facePlatform', 'faceTop', 'faceSide', 'faceTriangle', 'facePFfixation', 'faceBones', 'faceHandFixation', 'faceHandPlateR', 'faceHandPlateL', 'faceHandBackR', 'faceHandBackL', 'faceMotorBulkR', 'faceMotorBulkL', 'faceMFoot', 'faceWheel'],
 	rccar_A2: ['facePlatform', 'faceTop', 'faceSide', 'faceTriangle', 'facePFfixation', 'faceBones', 'faceHandFixation', 'faceHandPlateR', 'faceHandPlateL', 'faceHandBackR', 'faceHandBackL', 'faceMotorBulkR', 'faceMotorBulkL', 'faceMFoot', 'faceWheel'],
 	rccar_A3: ['facePlatform', 'faceTop', 'faceSide', 'faceTriangle', 'facePFfixation', 'faceBones', 'faceHandFixation', 'faceHandPlateR', 'faceHandPlateL', 'faceHandBackR', 'faceHandBackL', 'faceMotorBulkR', 'faceMotorBulkL', 'faceMFoot', 'faceWheel'],
-	singleBone: ['SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01'],
+	singleBone: ['faceBone'],
 	doubleBone: ['SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01'],
 };
 
