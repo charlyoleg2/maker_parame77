@@ -1,0 +1,276 @@
+{
+  "partName": "singleBone",
+  "pDef": {
+    "partName": "singleBone",
+    "params": [
+      {
+        "name": "D1",
+        "unit": "mm",
+        "init": 30,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D2",
+        "unit": "mm",
+        "init": 70,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L1",
+        "unit": "mm",
+        "init": 200,
+        "min": 10,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Details",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "R3",
+        "unit": "mm",
+        "init": 50,
+        "min": 0,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W1",
+        "unit": "mm",
+        "init": 30,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "T1",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Holes",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "P2",
+        "unit": "%",
+        "init": 50,
+        "min": 0,
+        "max": 99,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W2",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "D1": "singleBone_face.svg",
+      "D2": "singleBone_face.svg",
+      "L1": "singleBone_face.svg",
+      "R3": "singleBone_face.svg",
+      "W1": "singleBone_face.svg",
+      "T1": "singleBone_face.svg",
+      "P2": "singleBone_face.svg",
+      "W2": "singleBone_face.svg"
+    },
+    "sim": {
+      "tMax": 200,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "D1": 30,
+    "D2": 70,
+    "L1": 200,
+    "Details": 0,
+    "R3": 50,
+    "W1": 30,
+    "T1": 10,
+    "Holes": 0,
+    "P2": 50,
+    "W2": 10
+  },
+  "figures": {
+    "faceBone": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 22.553281779624495,
+              "py": 26.76470588235294
+            },
+            {
+              "typ": 2,
+              "px": 22.553281779624502,
+              "py": -26.764705882352924,
+              "radius": 35,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 54.77225575051667,
+              "py": -15,
+              "radius": 50,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 145.22774424948338,
+              "py": -14.999999999999996
+            },
+            {
+              "typ": 2,
+              "px": 177.44671822037552,
+              "py": -26.764705882352942,
+              "radius": 50,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 177.44671822037552,
+              "py": 26.764705882352928,
+              "radius": 35,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 145.22774424948332,
+              "py": 15.000000000000004,
+              "radius": 50,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 54.772255750516635,
+              "py": 15
+            },
+            {
+              "typ": 2,
+              "px": 22.553281779624495,
+              "py": 26.76470588235294,
+              "radius": 50,
+              "large": false,
+              "ccw": false
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 15
+        },
+        {
+          "circle": true,
+          "cx": 200,
+          "cy": 0,
+          "radius": 15
+        },
+        {
+          "circle": true,
+          "cx": 56.5,
+          "cy": 0,
+          "radius": 7.5
+        },
+        {
+          "circle": true,
+          "cx": 85.5,
+          "cy": 0,
+          "radius": 7.5
+        },
+        {
+          "circle": true,
+          "cx": 114.5,
+          "cy": 0,
+          "radius": 7.5
+        },
+        {
+          "circle": true,
+          "cx": 143.5,
+          "cy": 0,
+          "radius": 7.5
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_singleBone_bone",
+        "face": "singleBone_faceBone",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_singleBone",
+        "boolMethod": 0,
+        "inList": [
+          "subpax_singleBone_bone"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "singleBone simTime: 0\nBone length 270.00 mm\nBone with N2 4 holes of diameter 15.00 mm\nBone W2b 14.00 mm\nsingleBone drawn successfully!\n"
+}

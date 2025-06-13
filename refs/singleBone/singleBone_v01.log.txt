@@ -1,0 +1,5 @@
+singleBone simTime: 0
+Bone length 270.00 mm
+Bone with N2 4 holes of diameter 15.00 mm
+Bone W2b 14.00 mm
+singleBone drawn successfully!

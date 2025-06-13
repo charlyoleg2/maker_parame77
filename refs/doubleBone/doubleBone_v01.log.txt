@@ -1,0 +1,5 @@
+doubleBone simTime: 0
+Bone length 370.00 mm
+Bone with N2 8 holes of diameter 15.00 and W2b 12.22 mm
+Side with N2c 4 holes of diameter 15.00 and W2c 11.20 mm
+doubleBone drawn successfully!
