@@ -33,6 +33,10 @@ const c_Parts = {
 	rccar_A1: 'rccar_A1_v01',
 	rccar_A2: 'rccar_A2_v01',
 	rccar_A3: 'rccar_A3_v01',
+	rccar_B2: 'rccar_B2_v01',
+	rccar_B3: 'rccar_B3_v01',
+	rccar_B4: 'rccar_B4_v01',
+	rccar_B5: 'rccar_B5_v01',
 	singleBone: 'singleBone_v01',
 	doubleBone: 'doubleBone_v01',
 };
@@ -66,6 +70,10 @@ const c_svgdxf = {
 	rccar_A1: ['facePlatform', 'faceTop', 'faceSide', 'faceTriangle', 'facePFfixation', 'faceBones', 'faceHandFixation', 'faceHandPlateR', 'faceHandPlateL', 'faceHandBackR', 'faceHandBackL', 'faceMotorBulkR', 'faceMotorBulkL', 'faceMFoot', 'faceWheel'],
 	rccar_A2: ['facePlatform', 'faceTop', 'faceSide', 'faceTriangle', 'facePFfixation', 'faceBones', 'faceHandFixation', 'faceHandPlateR', 'faceHandPlateL', 'faceHandBackR', 'faceHandBackL', 'faceMotorBulkR', 'faceMotorBulkL', 'faceMFoot', 'faceWheel'],
 	rccar_A3: ['facePlatform', 'faceTop', 'faceSide', 'faceTriangle', 'facePFfixation', 'faceBones', 'faceHandFixation', 'faceHandPlateR', 'faceHandPlateL', 'faceHandBackR', 'faceHandBackL', 'faceMotorBulkR', 'faceMotorBulkL', 'faceMFoot', 'faceWheel'],
+	rccar_B2: ['facePlatform', 'faceTop', 'faceSide', 'faceTriangle', 'facePFfixation', 'faceBones', 'faceHandFixation', 'faceHandPlateR', 'faceHandPlateL', 'faceHandBackR', 'faceHandBackL', 'faceMotorBulkR', 'faceMotorBulkL', 'faceMFoot', 'faceWheel'],
+	rccar_B3: ['facePlatform', 'faceTop', 'faceSide', 'faceTriangle', 'facePFfixation', 'faceBones', 'faceHandFixation', 'faceHandPlateR', 'faceHandPlateL', 'faceHandBackR', 'faceHandBackL', 'faceMotorBulkR', 'faceMotorBulkL', 'faceMFoot', 'faceWheel'],
+	rccar_B4: ['facePlatform', 'faceTop', 'faceSide', 'faceTriangle', 'facePFfixation', 'faceBones', 'faceHandFixation', 'faceHandPlateR', 'faceHandPlateL', 'faceHandBackR', 'faceHandBackL', 'faceMotorBulkR', 'faceMotorBulkL', 'faceMFoot', 'faceWheel'],
+	rccar_B5: ['facePlatform', 'faceTop', 'faceSide', 'faceTriangle', 'facePFfixation', 'faceBones', 'faceHandFixation', 'faceHandPlateR', 'faceHandPlateL', 'faceHandBackR', 'faceHandBackL', 'faceMotorBulkR', 'faceMotorBulkL', 'faceMFoot', 'faceWheel'],
 	singleBone: ['faceBone'],
 	doubleBone: ['SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01'],
 };
