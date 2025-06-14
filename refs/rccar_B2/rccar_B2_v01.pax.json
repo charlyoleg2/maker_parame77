@@ -1,0 +1,3351 @@
+{
+  "partName": "rccar",
+  "pDef": {
+    "partName": "rccar",
+    "params": [
+      {
+        "name": "N1",
+        "unit": "unit",
+        "init": 4,
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L1",
+        "unit": "mm",
+        "init": 300,
+        "min": 10,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W1",
+        "unit": "mm",
+        "init": 1200,
+        "min": 10,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "General",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "gen3D",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 5,
+        "step": 1,
+        "dropdown": [
+          "all",
+          "platform",
+          "bone",
+          "hand",
+          "motor",
+          "wheel"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "T1",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E1",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E2",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E3",
+        "unit": "mm",
+        "init": 30,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Platform",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "H1",
+        "unit": "mm",
+        "init": 230,
+        "min": 10,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W2",
+        "unit": "mm",
+        "init": 100,
+        "min": 10,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "triangleInt",
+        "unit": "checkbox",
+        "init": 1,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [],
+        "pType": 1
+      },
+      {
+        "name": "triangleExt",
+        "unit": "checkbox",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [],
+        "pType": 1
+      },
+      {
+        "name": "Bone",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "D1",
+        "unit": "mm",
+        "init": 20,
+        "min": 1,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D2",
+        "unit": "mm",
+        "init": 40,
+        "min": 1,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W3",
+        "unit": "mm",
+        "init": 30,
+        "min": 1,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L2",
+        "unit": "mm",
+        "init": 150,
+        "min": 1,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Unit",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "F1",
+        "unit": "mm",
+        "init": 180,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Dwheel",
+        "unit": "mm",
+        "init": 250,
+        "min": 10,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Z1",
+        "unit": "mm",
+        "init": 100,
+        "min": 10,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Z2",
+        "unit": "mm",
+        "init": 160,
+        "min": 10,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Lwheel",
+        "unit": "mm",
+        "init": 100,
+        "min": 10,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Lmotor",
+        "unit": "mm",
+        "init": 140,
+        "min": 10,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Dsteering",
+        "unit": "mm",
+        "init": 40,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Daxis",
+        "unit": "mm",
+        "init": 20,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Angles",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "aBoneMin",
+        "unit": "degree",
+        "init": -40,
+        "min": -80,
+        "max": 0,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "aBoneMax",
+        "unit": "degree",
+        "init": 20,
+        "min": -80,
+        "max": 80,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "aBoneLeft",
+        "unit": "%",
+        "init": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "aBoneRight",
+        "unit": "%",
+        "init": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "wheel",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [
+          "straight",
+          "turn"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "ra",
+        "unit": "degree",
+        "init": 0,
+        "min": -90,
+        "max": 90,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "rx",
+        "unit": "cm",
+        "init": 0,
+        "min": -1000,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "ry",
+        "unit": "cm",
+        "init": 0,
+        "min": -1000,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "N1": "rccar_all_xy.svg",
+      "L1": "rccar_all_xy.svg",
+      "W1": "rccar_all_xz.svg",
+      "gen3D": "rccar_all_xy.svg",
+      "T1": "rccar_one_xy.svg",
+      "E1": "rccar_one_xy.svg",
+      "E2": "rccar_motor_xz.svg",
+      "E3": "rccar_motor_xz.svg",
+      "H1": "rccar_platform_xz.svg",
+      "W2": "rccar_platform_xz.svg",
+      "triangleInt": "rccar_all_xy.svg",
+      "triangleExt": "rccar_all_xy.svg",
+      "D1": "rccar_bone.svg",
+      "D2": "rccar_bone.svg",
+      "W3": "rccar_bone.svg",
+      "L2": "rccar_bone.svg",
+      "F1": "rccar_one_xy.svg",
+      "Dwheel": "rccar_motor_xz.svg",
+      "Z1": "rccar_motor_xz.svg",
+      "Z2": "rccar_motor_xz.svg",
+      "Lwheel": "rccar_motor_xz.svg",
+      "Lmotor": "rccar_motor_xz.svg",
+      "Dsteering": "rccar_motor_xz.svg",
+      "Daxis": "rccar_motor_xz.svg",
+      "aBoneMin": "rccar_all_xz.svg",
+      "aBoneMax": "rccar_all_xz.svg",
+      "aBoneLeft": "rccar_all_xz.svg",
+      "aBoneRight": "rccar_all_xz.svg",
+      "wheel": "rccar_all_xy.svg",
+      "ra": "rccar_all_xy.svg",
+      "rx": "rccar_all_xy.svg",
+      "ry": "rccar_all_xy.svg"
+    },
+    "sim": {
+      "tMax": 200,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "N1": 4,
+    "L1": 300,
+    "W1": 1200,
+    "General": 0,
+    "gen3D": 2,
+    "T1": 10,
+    "E1": 10,
+    "E2": 10,
+    "E3": 30,
+    "Platform": 0,
+    "H1": 230,
+    "W2": 100,
+    "triangleInt": 1,
+    "triangleExt": 0,
+    "Bone": 0,
+    "D1": 20,
+    "D2": 40,
+    "W3": 30,
+    "L2": 150,
+    "Unit": 0,
+    "F1": 180,
+    "Dwheel": 250,
+    "Z1": 100,
+    "Z2": 160,
+    "Lwheel": 100,
+    "Lmotor": 140,
+    "Dsteering": 40,
+    "Daxis": 20,
+    "Angles": 0,
+    "aBoneMin": -40,
+    "aBoneMax": 20,
+    "aBoneLeft": 0,
+    "aBoneRight": 0,
+    "wheel": 0,
+    "ra": 0,
+    "rx": 0,
+    "ry": 0
+  },
+  "figures": {
+    "facePlatform": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -50,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 220
+            },
+            {
+              "typ": 1,
+              "px": 600,
+              "py": 220
+            },
+            {
+              "typ": 1,
+              "px": 600,
+              "py": 230
+            },
+            {
+              "typ": 1,
+              "px": -600,
+              "py": 230
+            },
+            {
+              "typ": 1,
+              "px": -600,
+              "py": 220
+            },
+            {
+              "typ": 1,
+              "px": -50,
+              "py": 220
+            },
+            {
+              "typ": 1,
+              "px": -50,
+              "py": 0
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -40,
+              "py": 10
+            },
+            {
+              "typ": 1,
+              "px": 40,
+              "py": 10
+            },
+            {
+              "typ": 1,
+              "px": 40,
+              "py": 220
+            },
+            {
+              "typ": 1,
+              "px": -40,
+              "py": 220
+            },
+            {
+              "typ": 1,
+              "px": -40,
+              "py": 10
+            }
+          ]
+        }
+      ]
+    ],
+    "faceTop": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -600,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 600,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 600,
+              "py": 1250
+            },
+            {
+              "typ": 1,
+              "px": -600,
+              "py": 1250
+            },
+            {
+              "typ": 1,
+              "px": -600,
+              "py": 0
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -40,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 40,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 40,
+              "py": 1250
+            },
+            {
+              "typ": 1,
+              "px": -40,
+              "py": 1250
+            },
+            {
+              "typ": 1,
+              "px": -40,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "faceSide": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 1250,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 1250,
+              "py": 230
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 230
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "faceTriangle": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -50,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": -40,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": -40,
+              "py": 230
+            },
+            {
+              "typ": 1,
+              "px": -600,
+              "py": 230
+            },
+            {
+              "typ": 1,
+              "px": -600,
+              "py": 220
+            },
+            {
+              "typ": 1,
+              "px": -50,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 50,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 600,
+              "py": 220
+            },
+            {
+              "typ": 1,
+              "px": 600,
+              "py": 230
+            },
+            {
+              "typ": 1,
+              "px": 40,
+              "py": 230
+            },
+            {
+              "typ": 1,
+              "px": 40,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "facePFfixation": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 40,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 80,
+              "py": 0
+            },
+            {
+              "typ": 2,
+              "px": 80,
+              "py": 40,
+              "radius": 20,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 120
+            },
+            {
+              "typ": 1,
+              "px": 80,
+              "py": 120
+            },
+            {
+              "typ": 2,
+              "px": 80,
+              "py": 160,
+              "radius": 20,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 40,
+              "py": 160
+            },
+            {
+              "typ": 1,
+              "px": 40,
+              "py": 0
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 80,
+          "cy": 20,
+          "radius": 10
+        },
+        {
+          "circle": true,
+          "cx": 80,
+          "cy": 140,
+          "radius": 10
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -40,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": -80,
+              "py": 0
+            },
+            {
+              "typ": 2,
+              "px": -80,
+              "py": 40,
+              "radius": 20,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -50,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": -50,
+              "py": 120
+            },
+            {
+              "typ": 1,
+              "px": -80,
+              "py": 120
+            },
+            {
+              "typ": 2,
+              "px": -80,
+              "py": 160,
+              "radius": 20,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -40,
+              "py": 160
+            },
+            {
+              "typ": 1,
+              "px": -40,
+              "py": 0
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": -80,
+          "cy": 20,
+          "radius": 10
+        },
+        {
+          "circle": true,
+          "cx": -80,
+          "cy": 140,
+          "radius": 10
+        }
+      ]
+    ],
+    "faceBones": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 99.775629593877,
+              "py": 22.987385841463492
+            },
+            {
+              "typ": 2,
+              "px": 80.49200130328082,
+              "py": 0.0060525478941499955,
+              "radius": 20.000000000000004,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 175.13103687396972,
+              "py": -79.4055272944444
+            },
+            {
+              "typ": 2,
+              "px": 194.41466516456592,
+              "py": -56.42419400087506,
+              "radius": 19.999999999999993,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 99.775629593877,
+              "py": 22.987385841463492
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 80,
+          "cy": 20,
+          "radius": 10
+        },
+        {
+          "circle": true,
+          "cx": 194.90666646784672,
+          "cy": -76.41814145298089,
+          "radius": 10
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 99.775629593877,
+              "py": 142.9873858414635
+            },
+            {
+              "typ": 2,
+              "px": 80.49200130328082,
+              "py": 120.00605254789414,
+              "radius": 20.000000000000004,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 175.13103687396972,
+              "py": 40.5944727055556
+            },
+            {
+              "typ": 2,
+              "px": 194.41466516456592,
+              "py": 63.57580599912494,
+              "radius": 19.999999999999993,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 99.775629593877,
+              "py": 142.9873858414635
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 80,
+          "cy": 140,
+          "radius": 10
+        },
+        {
+          "circle": true,
+          "cx": 194.90666646784672,
+          "cy": 43.58185854701911,
+          "radius": 10
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -80.49200130328082,
+              "py": 0.0060525478941499955
+            },
+            {
+              "typ": 2,
+              "px": -99.775629593877,
+              "py": 22.987385841463492,
+              "radius": 20.000000000000004,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -194.4146651645659,
+              "py": -56.424194000875076
+            },
+            {
+              "typ": 2,
+              "px": -175.13103687396972,
+              "py": -79.40552729444437,
+              "radius": 19.999999999999993,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -80.49200130328082,
+              "py": 0.0060525478941499955
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": -80,
+          "cy": 20,
+          "radius": 10
+        },
+        {
+          "circle": true,
+          "cx": -194.90666646784672,
+          "cy": -76.41814145298089,
+          "radius": 10
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -80.49200130328082,
+              "py": 120.00605254789414
+            },
+            {
+              "typ": 2,
+              "px": -99.775629593877,
+              "py": 142.9873858414635,
+              "radius": 20.000000000000004,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -194.4146651645659,
+              "py": 63.575805999124924
+            },
+            {
+              "typ": 2,
+              "px": -175.13103687396972,
+              "py": 40.59447270555563,
+              "radius": 19.999999999999993,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -80.49200130328082,
+              "py": 120.00605254789414
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": -80,
+          "cy": 140,
+          "radius": 10
+        },
+        {
+          "circle": true,
+          "cx": -194.90666646784672,
+          "cy": 43.58185854701911,
+          "radius": 10
+        }
+      ]
+    ],
+    "faceHandFixation": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 234.90666646784672,
+              "py": -96.41814145298089
+            },
+            {
+              "typ": 1,
+              "px": 194.90666646784672,
+              "py": -96.41814145298089
+            },
+            {
+              "typ": 2,
+              "px": 194.90666646784672,
+              "py": -56.41814145298089,
+              "radius": 20,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 224.90666646784672,
+              "py": -56.41814145298089
+            },
+            {
+              "typ": 1,
+              "px": 224.90666646784672,
+              "py": 23.58185854701911
+            },
+            {
+              "typ": 1,
+              "px": 194.90666646784672,
+              "py": 23.58185854701911
+            },
+            {
+              "typ": 2,
+              "px": 194.90666646784672,
+              "py": 63.58185854701911,
+              "radius": 20,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 234.90666646784672,
+              "py": 63.58185854701911
+            },
+            {
+              "typ": 1,
+              "px": 234.90666646784672,
+              "py": -96.41814145298089
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 194.90666646784672,
+          "cy": -76.41814145298089,
+          "radius": 10
+        },
+        {
+          "circle": true,
+          "cx": 194.90666646784672,
+          "cy": 43.58185854701911,
+          "radius": 10
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -234.90666646784672,
+              "py": -96.41814145298089
+            },
+            {
+              "typ": 1,
+              "px": -194.90666646784672,
+              "py": -96.41814145298089
+            },
+            {
+              "typ": 2,
+              "px": -194.90666646784672,
+              "py": -56.41814145298089,
+              "radius": 20,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -224.90666646784672,
+              "py": -56.41814145298089
+            },
+            {
+              "typ": 1,
+              "px": -224.90666646784672,
+              "py": 23.58185854701911
+            },
+            {
+              "typ": 1,
+              "px": -194.90666646784672,
+              "py": 23.58185854701911
+            },
+            {
+              "typ": 2,
+              "px": -194.90666646784672,
+              "py": 63.58185854701911,
+              "radius": 20,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -234.90666646784672,
+              "py": 63.58185854701911
+            },
+            {
+              "typ": 1,
+              "px": -234.90666646784672,
+              "py": -96.41814145298089
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": -194.90666646784672,
+          "cy": -76.41814145298089,
+          "radius": 10
+        },
+        {
+          "circle": true,
+          "cx": -194.90666646784672,
+          "cy": 43.58185854701911,
+          "radius": 10
+        }
+      ]
+    ],
+    "faceHandPlateR": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 334.9066664678467,
+              "py": 70
+            },
+            {
+              "typ": 2,
+              "px": 334.9066664678467,
+              "py": 250,
+              "radius": 90,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 224.90666646784675,
+              "py": 250.00000000000003
+            },
+            {
+              "typ": 1,
+              "px": 224.90666646784672,
+              "py": 70.00000000000001
+            },
+            {
+              "typ": 1,
+              "px": 334.9066664678467,
+              "py": 70
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 334.9066664678467,
+          "cy": 160,
+          "radius": 20
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 334.9066664678467,
+              "py": 380
+            },
+            {
+              "typ": 2,
+              "px": 334.9066664678467,
+              "py": 560,
+              "radius": 90,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 224.90666646784675,
+              "py": 560
+            },
+            {
+              "typ": 1,
+              "px": 224.90666646784672,
+              "py": 380
+            },
+            {
+              "typ": 1,
+              "px": 334.9066664678467,
+              "py": 380
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 334.9066664678467,
+          "cy": 470,
+          "radius": 20
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 334.9066664678467,
+              "py": 690
+            },
+            {
+              "typ": 2,
+              "px": 334.9066664678467,
+              "py": 870,
+              "radius": 90,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 224.90666646784675,
+              "py": 870
+            },
+            {
+              "typ": 1,
+              "px": 224.90666646784672,
+              "py": 690
+            },
+            {
+              "typ": 1,
+              "px": 334.9066664678467,
+              "py": 690
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 334.9066664678467,
+          "cy": 780,
+          "radius": 20
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 334.9066664678467,
+              "py": 1000
+            },
+            {
+              "typ": 2,
+              "px": 334.9066664678467,
+              "py": 1180,
+              "radius": 90,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 224.90666646784675,
+              "py": 1180
+            },
+            {
+              "typ": 1,
+              "px": 224.90666646784672,
+              "py": 1000
+            },
+            {
+              "typ": 1,
+              "px": 334.9066664678467,
+              "py": 1000
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 334.9066664678467,
+          "cy": 1090,
+          "radius": 20
+        }
+      ]
+    ],
+    "faceHandPlateL": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -334.9066664678467,
+              "py": 250
+            },
+            {
+              "typ": 2,
+              "px": -334.9066664678467,
+              "py": 70,
+              "radius": 90,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -224.90666646784672,
+              "py": 70.00000000000001
+            },
+            {
+              "typ": 1,
+              "px": -224.90666646784672,
+              "py": 250
+            },
+            {
+              "typ": 1,
+              "px": -334.9066664678467,
+              "py": 250
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": -334.9066664678467,
+          "cy": 160,
+          "radius": 20
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -334.9066664678467,
+              "py": 560
+            },
+            {
+              "typ": 2,
+              "px": -334.9066664678467,
+              "py": 380,
+              "radius": 90,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -224.90666646784672,
+              "py": 380
+            },
+            {
+              "typ": 1,
+              "px": -224.90666646784672,
+              "py": 560
+            },
+            {
+              "typ": 1,
+              "px": -334.9066664678467,
+              "py": 560
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": -334.9066664678467,
+          "cy": 470,
+          "radius": 20
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -334.9066664678467,
+              "py": 870
+            },
+            {
+              "typ": 2,
+              "px": -334.9066664678467,
+              "py": 690,
+              "radius": 90,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -224.90666646784672,
+              "py": 690
+            },
+            {
+              "typ": 1,
+              "px": -224.90666646784672,
+              "py": 870
+            },
+            {
+              "typ": 1,
+              "px": -334.9066664678467,
+              "py": 870
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": -334.9066664678467,
+          "cy": 780,
+          "radius": 20
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -334.9066664678467,
+              "py": 1180
+            },
+            {
+              "typ": 2,
+              "px": -334.9066664678467,
+              "py": 1000,
+              "radius": 90,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -224.90666646784672,
+              "py": 1000
+            },
+            {
+              "typ": 1,
+              "px": -224.90666646784672,
+              "py": 1180
+            },
+            {
+              "typ": 1,
+              "px": -334.9066664678467,
+              "py": 1180
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": -334.9066664678467,
+          "cy": 1090,
+          "radius": 20
+        }
+      ]
+    ],
+    "faceHandBackR": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 224.90666646784672,
+              "py": 70
+            },
+            {
+              "typ": 1,
+              "px": 234.90666646784672,
+              "py": 70
+            },
+            {
+              "typ": 1,
+              "px": 234.90666646784672,
+              "py": 250
+            },
+            {
+              "typ": 1,
+              "px": 224.90666646784672,
+              "py": 250
+            },
+            {
+              "typ": 1,
+              "px": 224.90666646784672,
+              "py": 70
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 224.90666646784672,
+              "py": 380
+            },
+            {
+              "typ": 1,
+              "px": 234.90666646784672,
+              "py": 380
+            },
+            {
+              "typ": 1,
+              "px": 234.90666646784672,
+              "py": 560
+            },
+            {
+              "typ": 1,
+              "px": 224.90666646784672,
+              "py": 560
+            },
+            {
+              "typ": 1,
+              "px": 224.90666646784672,
+              "py": 380
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 224.90666646784672,
+              "py": 690
+            },
+            {
+              "typ": 1,
+              "px": 234.90666646784672,
+              "py": 690
+            },
+            {
+              "typ": 1,
+              "px": 234.90666646784672,
+              "py": 870
+            },
+            {
+              "typ": 1,
+              "px": 224.90666646784672,
+              "py": 870
+            },
+            {
+              "typ": 1,
+              "px": 224.90666646784672,
+              "py": 690
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 224.90666646784672,
+              "py": 1000
+            },
+            {
+              "typ": 1,
+              "px": 234.90666646784672,
+              "py": 1000
+            },
+            {
+              "typ": 1,
+              "px": 234.90666646784672,
+              "py": 1180
+            },
+            {
+              "typ": 1,
+              "px": 224.90666646784672,
+              "py": 1180
+            },
+            {
+              "typ": 1,
+              "px": 224.90666646784672,
+              "py": 1000
+            }
+          ]
+        }
+      ]
+    ],
+    "faceHandBackL": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -234.90666646784672,
+              "py": 70
+            },
+            {
+              "typ": 1,
+              "px": -224.90666646784672,
+              "py": 70
+            },
+            {
+              "typ": 1,
+              "px": -224.90666646784672,
+              "py": 250
+            },
+            {
+              "typ": 1,
+              "px": -234.90666646784672,
+              "py": 250
+            },
+            {
+              "typ": 1,
+              "px": -234.90666646784672,
+              "py": 70
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -234.90666646784672,
+              "py": 380
+            },
+            {
+              "typ": 1,
+              "px": -224.90666646784672,
+              "py": 380
+            },
+            {
+              "typ": 1,
+              "px": -224.90666646784672,
+              "py": 560
+            },
+            {
+              "typ": 1,
+              "px": -234.90666646784672,
+              "py": 560
+            },
+            {
+              "typ": 1,
+              "px": -234.90666646784672,
+              "py": 380
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -234.90666646784672,
+              "py": 690
+            },
+            {
+              "typ": 1,
+              "px": -224.90666646784672,
+              "py": 690
+            },
+            {
+              "typ": 1,
+              "px": -224.90666646784672,
+              "py": 870
+            },
+            {
+              "typ": 1,
+              "px": -234.90666646784672,
+              "py": 870
+            },
+            {
+              "typ": 1,
+              "px": -234.90666646784672,
+              "py": 690
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -234.90666646784672,
+              "py": 1000
+            },
+            {
+              "typ": 1,
+              "px": -224.90666646784672,
+              "py": 1000
+            },
+            {
+              "typ": 1,
+              "px": -224.90666646784672,
+              "py": 1180
+            },
+            {
+              "typ": 1,
+              "px": -234.90666646784672,
+              "py": 1180
+            },
+            {
+              "typ": 1,
+              "px": -234.90666646784672,
+              "py": 1000
+            }
+          ]
+        }
+      ]
+    ],
+    "faceMotorBulkR": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 334.9066664678467,
+              "py": 250
+            },
+            {
+              "typ": 2,
+              "px": 334.9066664678467,
+              "py": 70,
+              "radius": 90,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 474.9066664678467,
+              "py": 69.99999999999999
+            },
+            {
+              "typ": 1,
+              "px": 474.9066664678467,
+              "py": 250
+            },
+            {
+              "typ": 1,
+              "px": 334.9066664678467,
+              "py": 250
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 334.9066664678467,
+          "cy": 160,
+          "radius": 20
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 334.9066664678467,
+              "py": 560
+            },
+            {
+              "typ": 2,
+              "px": 334.9066664678467,
+              "py": 380,
+              "radius": 90,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 474.9066664678467,
+              "py": 380
+            },
+            {
+              "typ": 1,
+              "px": 474.9066664678467,
+              "py": 560
+            },
+            {
+              "typ": 1,
+              "px": 334.9066664678467,
+              "py": 560
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 334.9066664678467,
+          "cy": 470,
+          "radius": 20
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 334.9066664678467,
+              "py": 870
+            },
+            {
+              "typ": 2,
+              "px": 334.9066664678467,
+              "py": 690,
+              "radius": 90,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 474.9066664678467,
+              "py": 690
+            },
+            {
+              "typ": 1,
+              "px": 474.9066664678467,
+              "py": 870
+            },
+            {
+              "typ": 1,
+              "px": 334.9066664678467,
+              "py": 870
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 334.9066664678467,
+          "cy": 780,
+          "radius": 20
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 334.9066664678467,
+              "py": 1180
+            },
+            {
+              "typ": 2,
+              "px": 334.9066664678467,
+              "py": 1000,
+              "radius": 90,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 474.9066664678467,
+              "py": 1000
+            },
+            {
+              "typ": 1,
+              "px": 474.9066664678467,
+              "py": 1180
+            },
+            {
+              "typ": 1,
+              "px": 334.9066664678467,
+              "py": 1180
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 334.9066664678467,
+          "cy": 1090,
+          "radius": 20
+        }
+      ]
+    ],
+    "faceMotorBulkL": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -334.9066664678467,
+              "py": 70
+            },
+            {
+              "typ": 2,
+              "px": -334.9066664678467,
+              "py": 250,
+              "radius": 90,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -474.90666646784666,
+              "py": 250.00000000000003
+            },
+            {
+              "typ": 1,
+              "px": -474.9066664678467,
+              "py": 70.00000000000001
+            },
+            {
+              "typ": 1,
+              "px": -334.9066664678467,
+              "py": 70
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": -334.9066664678467,
+          "cy": 160,
+          "radius": 20
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -334.9066664678467,
+              "py": 380
+            },
+            {
+              "typ": 2,
+              "px": -334.9066664678467,
+              "py": 560,
+              "radius": 90,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -474.90666646784666,
+              "py": 560
+            },
+            {
+              "typ": 1,
+              "px": -474.9066664678467,
+              "py": 380
+            },
+            {
+              "typ": 1,
+              "px": -334.9066664678467,
+              "py": 380
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": -334.9066664678467,
+          "cy": 470,
+          "radius": 20
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -334.9066664678467,
+              "py": 690
+            },
+            {
+              "typ": 2,
+              "px": -334.9066664678467,
+              "py": 870,
+              "radius": 90,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -474.90666646784666,
+              "py": 870
+            },
+            {
+              "typ": 1,
+              "px": -474.9066664678467,
+              "py": 690
+            },
+            {
+              "typ": 1,
+              "px": -334.9066664678467,
+              "py": 690
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": -334.9066664678467,
+          "cy": 780,
+          "radius": 20
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -334.9066664678467,
+              "py": 1000
+            },
+            {
+              "typ": 2,
+              "px": -334.9066664678467,
+              "py": 1180,
+              "radius": 90,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -474.90666646784666,
+              "py": 1180
+            },
+            {
+              "typ": 1,
+              "px": -474.9066664678467,
+              "py": 1000
+            },
+            {
+              "typ": 1,
+              "px": -334.9066664678467,
+              "py": 1000
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": -334.9066664678467,
+          "cy": 1090,
+          "radius": 20
+        }
+      ]
+    ],
+    "faceMFoot": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -30,
+              "py": 0
+            },
+            {
+              "typ": 2,
+              "px": 30,
+              "py": 0,
+              "radius": 30,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 90,
+              "py": 120
+            },
+            {
+              "typ": 1,
+              "px": 90,
+              "py": 240
+            },
+            {
+              "typ": 1,
+              "px": -90,
+              "py": 240
+            },
+            {
+              "typ": 1,
+              "px": -90,
+              "py": 120
+            },
+            {
+              "typ": 1,
+              "px": -30,
+              "py": 0
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 20
+        }
+      ]
+    ],
+    "faceWheel": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 10,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 9.999999999999996,
+              "py": 70
+            },
+            {
+              "typ": 1,
+              "px": 91.66666666666664,
+              "py": 70.00000000000001
+            },
+            {
+              "typ": 2,
+              "px": 124.99999999999999,
+              "py": 103.33333333333336,
+              "radius": 33.333333333333336,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 124.99999999999999,
+              "py": 136.66666666666666
+            },
+            {
+              "typ": 2,
+              "px": 91.66666666666666,
+              "py": 170,
+              "radius": 33.333333333333336,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 1.0409497792752502e-14,
+              "py": 170
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_rccar_platformMain",
+        "face": "rccar_facePlatform",
+        "extrudeMethod": 0,
+        "length": 1250,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_rccar_PFfixation0",
+        "face": "rccar_facePFfixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          70
+        ]
+      },
+      {
+        "outName": "subpax_rccar_PFfixation1",
+        "face": "rccar_facePFfixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          110
+        ]
+      },
+      {
+        "outName": "subpax_rccar_PFfixation2",
+        "face": "rccar_facePFfixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          200
+        ]
+      },
+      {
+        "outName": "subpax_rccar_PFfixation3",
+        "face": "rccar_facePFfixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          240
+        ]
+      },
+      {
+        "outName": "subpax_rccar_PFfixation4",
+        "face": "rccar_facePFfixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          380
+        ]
+      },
+      {
+        "outName": "subpax_rccar_PFfixation5",
+        "face": "rccar_facePFfixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          420
+        ]
+      },
+      {
+        "outName": "subpax_rccar_PFfixation6",
+        "face": "rccar_facePFfixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          510
+        ]
+      },
+      {
+        "outName": "subpax_rccar_PFfixation7",
+        "face": "rccar_facePFfixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          550
+        ]
+      },
+      {
+        "outName": "subpax_rccar_PFfixation8",
+        "face": "rccar_facePFfixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          690
+        ]
+      },
+      {
+        "outName": "subpax_rccar_PFfixation9",
+        "face": "rccar_facePFfixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          730
+        ]
+      },
+      {
+        "outName": "subpax_rccar_PFfixation10",
+        "face": "rccar_facePFfixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          820
+        ]
+      },
+      {
+        "outName": "subpax_rccar_PFfixation11",
+        "face": "rccar_facePFfixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          860
+        ]
+      },
+      {
+        "outName": "subpax_rccar_PFfixation12",
+        "face": "rccar_facePFfixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          1000
+        ]
+      },
+      {
+        "outName": "subpax_rccar_PFfixation13",
+        "face": "rccar_facePFfixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          1040
+        ]
+      },
+      {
+        "outName": "subpax_rccar_PFfixation14",
+        "face": "rccar_facePFfixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          1130
+        ]
+      },
+      {
+        "outName": "subpax_rccar_PFfixation15",
+        "face": "rccar_facePFfixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          1170
+        ]
+      },
+      {
+        "outName": "subpax_rccar_platformTriangle2",
+        "face": "rccar_faceTriangle",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          310
+        ]
+      },
+      {
+        "outName": "subpax_rccar_platformTriangle3",
+        "face": "rccar_faceTriangle",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          620
+        ]
+      },
+      {
+        "outName": "subpax_rccar_platformTriangle4",
+        "face": "rccar_faceTriangle",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          930
+        ]
+      },
+      {
+        "outName": "subpax_rccar_bones0",
+        "face": "rccar_faceBones",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          90
+        ]
+      },
+      {
+        "outName": "subpax_rccar_bones1",
+        "face": "rccar_faceBones",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          220
+        ]
+      },
+      {
+        "outName": "subpax_rccar_bones2",
+        "face": "rccar_faceBones",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          400
+        ]
+      },
+      {
+        "outName": "subpax_rccar_bones3",
+        "face": "rccar_faceBones",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          530
+        ]
+      },
+      {
+        "outName": "subpax_rccar_bones4",
+        "face": "rccar_faceBones",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          710
+        ]
+      },
+      {
+        "outName": "subpax_rccar_bones5",
+        "face": "rccar_faceBones",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          840
+        ]
+      },
+      {
+        "outName": "subpax_rccar_bones6",
+        "face": "rccar_faceBones",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          1020
+        ]
+      },
+      {
+        "outName": "subpax_rccar_bones7",
+        "face": "rccar_faceBones",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          1150
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handFixation0",
+        "face": "rccar_faceHandFixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          70
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handFixation1",
+        "face": "rccar_faceHandFixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          110
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handFixation2",
+        "face": "rccar_faceHandFixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          200
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handFixation3",
+        "face": "rccar_faceHandFixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          240
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handFixation4",
+        "face": "rccar_faceHandFixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          380
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handFixation5",
+        "face": "rccar_faceHandFixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          420
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handFixation6",
+        "face": "rccar_faceHandFixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          510
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handFixation7",
+        "face": "rccar_faceHandFixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          550
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handFixation8",
+        "face": "rccar_faceHandFixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          690
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handFixation9",
+        "face": "rccar_faceHandFixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          730
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handFixation10",
+        "face": "rccar_faceHandFixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          820
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handFixation11",
+        "face": "rccar_faceHandFixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          860
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handFixation12",
+        "face": "rccar_faceHandFixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          1000
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handFixation13",
+        "face": "rccar_faceHandFixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          1040
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handFixation14",
+        "face": "rccar_faceHandFixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          1130
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handFixation15",
+        "face": "rccar_faceHandFixation",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          1170
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handPlateR1",
+        "face": "rccar_faceHandPlateR",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          -86.41814145298089,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handPlateR2",
+        "face": "rccar_faceHandPlateR",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          63.58185854701911,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handPlateL1",
+        "face": "rccar_faceHandPlateL",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          -86.41814145298089,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handPlateL2",
+        "face": "rccar_faceHandPlateL",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          63.58185854701911,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handBackR",
+        "face": "rccar_faceHandBackR",
+        "extrudeMethod": 0,
+        "length": 160,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          63.58185854701911,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_rccar_handBackL",
+        "face": "rccar_faceHandBackL",
+        "extrudeMethod": 0,
+        "length": 160,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          63.58185854701911,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_rccar_motorBulkR",
+        "face": "rccar_faceMotorBulkR",
+        "extrudeMethod": 0,
+        "length": 120,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          43.58185854701911,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_rccar_motorBulkL",
+        "face": "rccar_faceMotorBulkL",
+        "extrudeMethod": 0,
+        "length": 120,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          43.58185854701911,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_rccar_mFoot00",
+        "face": "rccar_faceMFoot",
+        "extrudeMethod": 0,
+        "length": 40,
+        "rotate": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "translate": [
+          434.9066664678467,
+          -196.41814145298088,
+          160
+        ]
+      },
+      {
+        "outName": "subpax_rccar_mFoot01",
+        "face": "rccar_faceMFoot",
+        "extrudeMethod": 0,
+        "length": 40,
+        "rotate": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "translate": [
+          -434.9066664678467,
+          -196.41814145298088,
+          160
+        ]
+      },
+      {
+        "outName": "subpax_rccar_mFoot02",
+        "face": "rccar_faceMFoot",
+        "extrudeMethod": 0,
+        "length": 40,
+        "rotate": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "translate": [
+          434.9066664678467,
+          -196.41814145298088,
+          470
+        ]
+      },
+      {
+        "outName": "subpax_rccar_mFoot03",
+        "face": "rccar_faceMFoot",
+        "extrudeMethod": 0,
+        "length": 40,
+        "rotate": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "translate": [
+          -434.9066664678467,
+          -196.41814145298088,
+          470
+        ]
+      },
+      {
+        "outName": "subpax_rccar_mFoot04",
+        "face": "rccar_faceMFoot",
+        "extrudeMethod": 0,
+        "length": 40,
+        "rotate": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "translate": [
+          434.9066664678467,
+          -196.41814145298088,
+          780
+        ]
+      },
+      {
+        "outName": "subpax_rccar_mFoot05",
+        "face": "rccar_faceMFoot",
+        "extrudeMethod": 0,
+        "length": 40,
+        "rotate": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "translate": [
+          -434.9066664678467,
+          -196.41814145298088,
+          780
+        ]
+      },
+      {
+        "outName": "subpax_rccar_mFoot06",
+        "face": "rccar_faceMFoot",
+        "extrudeMethod": 0,
+        "length": 40,
+        "rotate": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "translate": [
+          434.9066664678467,
+          -196.41814145298088,
+          1090
+        ]
+      },
+      {
+        "outName": "subpax_rccar_mFoot07",
+        "face": "rccar_faceMFoot",
+        "extrudeMethod": 0,
+        "length": 40,
+        "rotate": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "translate": [
+          -434.9066664678467,
+          -196.41814145298088,
+          1090
+        ]
+      },
+      {
+        "outName": "subpax_rccar_wheel00",
+        "face": "rccar_faceWheel",
+        "extrudeMethod": 1,
+        "rotate": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "translate": [
+          434.9066664678467,
+          -196.41814145298088,
+          160
+        ]
+      },
+      {
+        "outName": "subpax_rccar_wheel01",
+        "face": "rccar_faceWheel",
+        "extrudeMethod": 1,
+        "rotate": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "translate": [
+          -434.9066664678467,
+          -196.41814145298088,
+          160
+        ]
+      },
+      {
+        "outName": "subpax_rccar_wheel02",
+        "face": "rccar_faceWheel",
+        "extrudeMethod": 1,
+        "rotate": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "translate": [
+          434.9066664678467,
+          -196.41814145298088,
+          470
+        ]
+      },
+      {
+        "outName": "subpax_rccar_wheel03",
+        "face": "rccar_faceWheel",
+        "extrudeMethod": 1,
+        "rotate": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "translate": [
+          -434.9066664678467,
+          -196.41814145298088,
+          470
+        ]
+      },
+      {
+        "outName": "subpax_rccar_wheel04",
+        "face": "rccar_faceWheel",
+        "extrudeMethod": 1,
+        "rotate": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "translate": [
+          434.9066664678467,
+          -196.41814145298088,
+          780
+        ]
+      },
+      {
+        "outName": "subpax_rccar_wheel05",
+        "face": "rccar_faceWheel",
+        "extrudeMethod": 1,
+        "rotate": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "translate": [
+          -434.9066664678467,
+          -196.41814145298088,
+          780
+        ]
+      },
+      {
+        "outName": "subpax_rccar_wheel06",
+        "face": "rccar_faceWheel",
+        "extrudeMethod": 1,
+        "rotate": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "translate": [
+          434.9066664678467,
+          -196.41814145298088,
+          1090
+        ]
+      },
+      {
+        "outName": "subpax_rccar_wheel07",
+        "face": "rccar_faceWheel",
+        "extrudeMethod": 1,
+        "rotate": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "translate": [
+          -434.9066664678467,
+          -196.41814145298088,
+          1090
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_rccar",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_rccar_bones0",
+          "subpax_rccar_bones1",
+          "subpax_rccar_bones2",
+          "subpax_rccar_bones3",
+          "subpax_rccar_bones4",
+          "subpax_rccar_bones5",
+          "subpax_rccar_bones6",
+          "subpax_rccar_bones7"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "rccar simTime: 0\nPlatform Ltotal 1.25 m, surface 1.50 m2\nHplatform 358.58 mm\nRC-car drawn successfully!\n"
+}

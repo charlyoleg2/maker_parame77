@@ -1,0 +1,4 @@
+rccar simTime: 0
+Platform Ltotal 1.25 m, surface 1.50 m2
+Hplatform 358.58 mm
+RC-car drawn successfully!
