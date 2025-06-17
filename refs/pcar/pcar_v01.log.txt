@@ -1,0 +1,3 @@
+pcar simTime: 0
+Body: Y0 100.00, Height 1800.00, Lenght: 5000.00, Width: 2000.00 mm
+pcar drawn successfully!
