@@ -39,6 +39,7 @@ const c_Parts = {
 	rccar_B5: 'rccar_B5_v01',
 	singleBone: 'singleBone_v01',
 	doubleBone: 'doubleBone_v01',
+	pcar: 'pcar_v01',
 };
 
 const c_svgdxf = {
@@ -76,6 +77,7 @@ const c_svgdxf = {
 	rccar_B5: ['facePlatform', 'faceTop', 'faceSide', 'faceTriangle', 'facePFfixation', 'faceBones', 'faceHandFixation', 'faceHandPlateR', 'faceHandPlateL', 'faceHandBackR', 'faceHandBackL', 'faceMotorBulkR', 'faceMotorBulkL', 'faceMFoot', 'faceWheel'],
 	singleBone: ['faceBone'],
 	doubleBone: ['SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01'],
+	pcar: ['faceSideWiWheels', 'faceSideWoWheels', 'faceTop', 'faceFront', 'faceWheel'],
 };
 
 function inferDesignName(instanceName) {
